@@ -538,3 +538,8 @@ span.ico-square:hover { -moz-box-shadow: inset 0 0 0 2px #FFF; -webkit-box-shado
 .spacer8 {width: 100% !important; min-height :80px !important; display:block; !important;}
 .spacer9 {width: 100% !important; min-height :90px !important; display:block; !important;}
 .spacer10 {width: 100% !important; min-height :100px !important; display:block; !important;}
+
+
+
+h1 {text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);}
+h3 {text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);}
