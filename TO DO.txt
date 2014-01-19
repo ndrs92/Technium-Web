@@ -6,4 +6,5 @@ Intentar conseguir el nuevo logo (Quisiera usar el del año anterior modificado 
 
 Arreglar iconitos (pngs pequeños de photoshop valdrán para home y eso)
 
+Hacer que las charlas y "máses" de la sección de eventos tengan un efecto símil al de la sección torneos (NO la de la columna torneos de la sección eventos, si no la de la SECCIÓN torneos) para poner detalles, hora etcétera de forma limpia.
 
