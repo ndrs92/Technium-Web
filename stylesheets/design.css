@@ -129,7 +129,7 @@ section.clients h5 {font-weight:400; color:#FFF; padding:20px 0 10px 0;margin:0;
 section.clients h6 {font-weight:400; color:#FFF; padding-bottom:20px;}
 section.clients p {font-size:16px; color:#FFF; margin-bottom:10px;}
 
-section.subscribe { background: #474441; width: 100%; padding:50px 0 50px 0;}
+section.subscribe { background: #474441; width: 100%; padding:50px 0 50px 0; pointer-events: none; opacity: 0.2;}
 section.subscribe h1 {font-weight:400; color:#DDD; margin-bottom:20px;}
 section.subscribe h4 {font-weight:400; color:#DDD; padding:20px 0 0px 0;margin:0;}
 section.subscribe h5 {font-weight:400; color:#FFF; padding:20px 0 10px 0;margin:0; font-size:22px;}
