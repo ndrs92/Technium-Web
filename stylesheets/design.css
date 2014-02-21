@@ -44,7 +44,7 @@ nod.nodisp {position: relative; top:-155px; left: 29%; font-size: 70px; opacity:
 #nav-bottom ul li:hover {opacity:1;}
 #nav-bottom ul li i{vertical-align:top !important;}
 
-img#logofloat {position: absolute;  top: 4px; z-index: 80;}
+img#logofloat {position: absolute;  top: -50px; z-index: 80;}
 
 #nav-bottom .search-wrapper {max-width:320px; width:100%; height:40px; display:inline-block; margin-top:10px;}
 #nav-bottom .search-wrapper form {margin:0 !important;}
