@@ -51,9 +51,9 @@ nod.nodisp {position: relative; top:-155px; left: 29%; font-size: 70px; opacity:
    Fixed background Sections
 ========================================= */
 section.fix-1 { background-attachment: fixed; height: 450px; background-image: url(../images/fix-1.jpg); background-size: cover; }
-section.fix-2 { background-attachment: fixed; height: 450px; background-image: url(../images/fix-2.jpg); background-size: cover; }
-section.fix-3 { background-attachment: fixed; height: 450px; background-image: url(../images/fix-3.jpg); background-size: cover; }
-section.fix-4 { background-attachment: fixed; height: 450px; background-image: url(../images/fix-4.jpg); background-size: cover; }
+section.fix-2 { background-attachment: fixed; height: 450px; background-image: url(../images/t2013_2.jpg); background-size: cover; }
+section.fix-3 { background-attachment: fixed; height: 450px; background-image: url(../images/t2013_3.jpg); background-size: cover; }
+section.fix-4 { background-attachment: fixed; height: 450px; background-image: url(../images/t2013_4.jpg); background-size: cover; }
 
 
 /* =========================================
@@ -98,7 +98,7 @@ section.topbar {background: #444444; padding:0; margin:0 auto;
 section.topbar h1 {font-size:36px; color:#596066; margin:0 !important;}
 section.topbar h1 a{color:#596066; }
 
-section.hero{ background-attachment: fixed;background-image: url(../images/bg-hero.jpg); background-size: cover}
+section.hero{  background-image: url(../images/bg-hero.jpg); background-size: cover}
 
 section.hero-base { background: #FC3232; width: 100%; padding:60px 0 60px 0;}
 section.hero-base h5 { margin-top: 2px !important; color: #596066; font-weight: normal; }
