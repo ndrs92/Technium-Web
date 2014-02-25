@@ -36,7 +36,7 @@
                <ul class="nav-list" id="nav-list">
                   <li><a onclick="$('#pro-services').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Eventos</a></li>
                   <li><a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Torneos</a></li>
-                  <li><a href="http://goo.gl/maps/Xcm2m" >Mapa</a></li>
+                  <li><a href="https://maps.google.es/maps?q=42.342909,-7.851457&num=1&t=h&z=19" >Mapa</a></li>
                   <li><a onclick="$('.clients').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Fotos 2013</a></li>
                </ul>
                &nbsp; &nbsp; <a class="button" id="sign-up" onclick="$('.subscribe').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">¡Apúntate!</a>
@@ -48,7 +48,7 @@
                   <li>&nbsp;</li>
                   <li><a onclick="$('#pro-services').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> Eventos</a></li>
                   <li><a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> Torneos</a></li>
-                  <li><a href="http://goo.gl/maps/Xcm2m" ><span class="badge"></i></span> Mapa</a></li>
+                  <li><a href="https://maps.google.es/maps?q=42.342909,-7.851457&num=1&t=h&z=19" ><span class="badge"></i></span> Mapa</a></li>
                   <li><a onclick="$('.clients').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Fotos 2013</a></li>
                   <li><a onclick="$('.subscribe').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> ¡Apúntate!</a></li>			   
                </ul>
@@ -749,7 +749,7 @@
       <div class="twelve columns text-center">
          <h3><small>Contacto</small></h3>
          <h1>INFORMACIÓN</h1>
-         <h3><small><small>Para cualquier duda, contacta con nosotros en <patata class="red-text">aseii.contacto@gmail.com</patata></small></small></h3>
+         <h3><small><small>Para cualquier duda, contacta con nosotros en <patata class="red-text">aseii@esei.uvigo.es</patata></small></small></h3>
       </div>
    </div>	
 
@@ -808,9 +808,9 @@
    <div class="three columns mobile-two">
       <h5>Posible gracias a...</h5>
       <ul class="no-bullet">
-         <li><strong>Universidade de Vigo</strong></li>
+         <li><strong>Escola Superior de Enxeñería Informática</strong></li>
          <li>Campus de Ourense</li>
-         <li>www.uvigo.es</li>
+         <li>www.esei.es</li>
       </ul>
    </div>
    <div class="three columns mobile-two"></div>
@@ -820,7 +820,7 @@
 </section>
 
 
-<a href="http://goo.gl/maps/Xcm2m"  >
+<a href="https://maps.google.es/maps?q=42.342909,-7.851457&num=1&t=h&z=19"  >
    <div id="mapa"></div>
 </a>
 
