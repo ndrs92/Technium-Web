@@ -600,45 +600,43 @@ streetViewControl: false
          <h3><small>No es cosa de uno solo...</small></h3>
          <h1>STAFF</h1>
          <div class="spacer6"></div>
-         <h1>En desarrollo...</h1>
+         
       </div>
    </div>
 
 
-<!--
    <div class="row">
       <div class="four mobile-four columns text-center">
          <div class="pane">
-            <img src="images/team-1.jpg" alt="" />
+            <img src="images/staff1.jpg" alt="" />
             <div class="bg-pale">
-               <h4>Tia 1</h4>
-               <h6>Staff A</h6>
+               <h4>Andrés Vieira</h4>
+               <h6>&ldquo;ndrs&rdquo;</h6>
             </div>
 
          </div>
       </div>
       <div class="four mobile-four columns text-center">
          <div class="pane">
-            <img src="images/team-2.jpg" alt="" />
+            <img src="images/staff2.jpg" alt="" />
             <div class="bg-pale">
-               <h4>Tia B</h4>
-               <h6>STAFF B</h6>
+               <h4>Miguel Esmoris</h4>
+               <h6>&ldquo;zupakode&rdquo;</h6>
             </div>
 
          </div>
       </div>
       <div class="four mobile-four columns text-center">
          <div class="pane">
-            <img src="images/team-3.jpg" alt="" />
+            <img src="images/staff3.jpg" alt="" />
             <div class="bg-pale">
-               <h4>Tia C</h4>
-               <h6>STAFF C</h6>
+               <h4>Edgard Ruíz</h4>
+               <h6>&ldquo;developergate&rdquo;</h6>
             </div>
 
          </div>
       </div>
    </div>
--->
 </section>
 
 
