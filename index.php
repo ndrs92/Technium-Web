@@ -50,7 +50,7 @@ streetViewControl: false
             <ul class="nav-list" id="nav-list">
                <li><a onclick="$('#pro-services').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Eventos</a></li>
                <li><a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Torneos</a></li>
-               <li><a onclick="$('#mygmap').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Mapa</a></li>
+               <li><a href="http://goo.gl/maps/Xcm2m">Mapa</a></li>
                <li><a onclick="$('.clients').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Fotos</a></li>
             </ul>
             &nbsp; &nbsp; <a class="button" id="sign-up" onclick="$('.subscribe').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">¡Apúntate!</a>
@@ -787,9 +787,9 @@ streetViewControl: false
 </section>
 
 
-<div id="mygmap" class="gmap3">
+<a href="http://goo.gl/maps/Xcm2m" ><div id="mygmap" class="gmap3">
 </div>
-
+</a>
 
 <section class="footer">
    <div class="row">
@@ -799,7 +799,7 @@ streetViewControl: false
             <!--<li><a href="#">Cosa A</a></li>
             <li><a href="#">Cosa B</a></li>
             <li><a href="#">Cosa C</a></li>-->
-            <li><a href="#">Web: Andrés Vieira Vázquez</a></li>
+            <li><a href="https://github.com/ndrs92">Web: Andrés Vieira Vázquez</a></li>
          </ul>
       </div>
    </div>
