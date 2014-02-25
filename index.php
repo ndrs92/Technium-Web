@@ -2,95 +2,138 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
- <meta charset="utf-8" />
- <!-- Cambia el viewport dependiendo del dispositivo que se esté usando -->
- <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <!-- Cambia el viewport dependiendo del dispositivo que se esté usando -->
+  <meta name="viewport" content="width=device-width" />
 
- <title>10 a 13 de Abril - Technium 2014</title>
+  <title>10 a 13 de Abril - Technium 2014</title>
 
- <!-- CSS incluídos (Comprimido) -->
- <link rel="stylesheet" href="stylesheets/foundation.css">
- <link rel="stylesheet" href="stylesheets/design.css">
- <link rel="icon" type="image/png" href="/favico.ico">
- <script src="javascripts/jquery.js"></script>
- <script src="javascripts/jquery.scrollzip.js"></script>
- <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
- <script src="javascripts/gmap3.js"></script>
- <script src="javascripts/modernizr.foundation.js"></script>
- <script src="javascripts/load.js"></script>
+  <!-- CSS incluídos (Comprimido) -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/design.css">
+  <link rel="icon" type="image/png" href="/favico.ico">
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/jquery.scrollzip.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+  <script src="javascripts/gmap3.js"></script>
+  <script src="javascripts/modernizr.foundation.js"></script>
+  <script src="javascripts/load.js"></script>
+
 
 </head>
-<!-- Carga la localización y pone un marcador en las coordenadas que aparecen -->
-<body onload='$("#mygmap").gmap3({
-marker:{
-latLng: [42.34288, -7.85144]
-},
-map:{
-options:{
-center: [42.34288, -7.85144],
-zoom:17,
-mapTypeId: google.maps.MapTypeId.ROADMAP,
-mapTypeControl: true,
-navigationControl: true,
-scrollwheel: true,
-streetViewControl: false
-}
-}
-});'>
-<section class="topbar" id="pro-top">
-   <div class="row collapse">
-      <div class="three columns mobile-three">
-         <div class="logo">
-            <img id="logofloat" src="images/logotech1.png"  alt="Flatline" />
-         </div>
-      </div>
-      <div class="nine columns mobile-one">
-         <a class="simple-menu top" style="float:right !important;" href="#sidr"><span class="ico-round white"><i class="icon-reorder"></i></span></a>
-         <div class="text-right">
-            <ul class="nav-list" id="nav-list">
-               <li><a onclick="$('#pro-services').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Eventos</a></li>
-               <li><a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Torneos</a></li>
-               <li><a href="http://goo.gl/maps/Xcm2m">Mapa</a></li>
-               <li><a onclick="$('.clients').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Fotos</a></li>
-            </ul>
-            &nbsp; &nbsp; <a class="button" id="sign-up" onclick="$('.subscribe').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">¡Apúntate!</a>
 
+<body>
+   <section class="topbar" id="pro-top">
+      <div class="row collapse">
+         <div class="three columns mobile-three">
+            <div class="logo">
+               <img id="logofloat" src="images/logotech1.png"  alt="Flatline" />
+            </div>
          </div>
-         <div id="sidr">
-            <div class="sidr-gutter"></div>
-            <ul>
-               <li>&nbsp;</li>
-               <li><a onclick="$('#pro-services').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> Eventos</a></li>
-               <li><a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> Torneos</a></li>
-               <li><a onclick="$('#mygmap').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> Mapa</a></li>
-               <li><a onclick="$('.clients').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Fotos</a></li>
-               <li><a onclick="$('.subscribe').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> ¡Apúntate!</a></li>			   
-            </ul>
+         <div class="nine columns mobile-one">
+            <a class="simple-menu top" style="float:right !important;" href="#sidr"><span class="ico-round white"><i class="icon-reorder"></i></span></a>
+            <div class="text-right">
+               <ul class="nav-list" id="nav-list">
+                  <li><a onclick="$('#pro-services').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Eventos</a></li>
+                  <li><a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Torneos</a></li>
+                  <li><a href="http://goo.gl/maps/Xcm2m" >Mapa</a></li>
+                  <li><a onclick="$('.clients').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Fotos</a></li>
+               </ul>
+               &nbsp; &nbsp; <a class="button" id="sign-up" onclick="$('.subscribe').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">¡Apúntate!</a>
+
+            </div>
+            <div id="sidr">
+               <div class="sidr-gutter"></div>
+               <ul>
+                  <li>&nbsp;</li>
+                  <li><a onclick="$('#pro-services').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> Eventos</a></li>
+                  <li><a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> Torneos</a></li>
+                  <li><a href="http://goo.gl/maps/Xcm2m" ><span class="badge"></i></span> Mapa</a></li>
+                  <li><a onclick="$('.clients').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Fotos</a></li>
+                  <li><a onclick="$('.subscribe').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> ¡Apúntate!</a></li>			   
+               </ul>
+            </div>
          </div>
       </div>
-   </div>
+   </section>
+
+
+
+
+
+
+
+   <section class="hero">
+      <div class="row">
+         <div class="twelve text-center columns">
+            <h3><small>Bienvenido... otra vez</small></h3>
+            <h1>TECHNIUM LAN PARTY 2014</h1>
+            <a href="#" onclick="$('.hero-base').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><img src="images/arrow_sans_down-512.png" width="30"/></a>
+         </div>
+      </div>
+   </section>
+
+
+
+
+
+
+
+
+
+   <section class="hero-base">
+      <div class="row ">
+         <div class="twelve columns text-center">
+           <script type="text/javascript">
+           //http://www.ricocheting.com/code/javascript/html-generator/countdown-timer
+dateFuture1 = new Date(2014,3,10,18,1,1);
+function GetCount(ddate,iid){
+   dateNow = new Date(); 
+   amount = ddate.getTime() - dateNow.getTime(); 
+   delete dateNow;
+
+   if(amount < 0){
+      document.getElementById(iid).innerHTML="¡En el Aire!";
+   }
+
+   else{
+      days=0;hours=0;mins=0;secs=0;out="";
+
+      amount = Math.floor(amount/1000);
+
+      days=Math.floor(amount/86400);
+      amount=amount%86400;
+
+      hours=Math.floor(amount/3600);
+      amount=amount%3600;
+
+      mins=Math.floor(amount/60);
+      amount=amount%60;
+
+      secs=Math.floor(amount);
+
+      if(days != 0){out += days +" "+((days==1)?"día":"días")+", ";}
+      if(hours != 0){out += hours +" "+((hours==1)?"hora":"horas")+", ";}
+      out += mins +" "+((mins==1)?"min":"mins")+", ";
+      out += secs +" "+((secs==1)?"seg":"segs")+", ";
+      out = out.substr(0,out.length-2);
+      document.getElementById(iid).innerHTML=out;
+
+      setTimeout(function(){GetCount(ddate,iid)}, 1000);
+   }
+}
+
+window.onload=function(){
+   GetCount(dateFuture1, 'countbox1');
+   //you can add additional countdowns here (just make sure you create dateFuture2 and countbox2 etc for each)
+};
+</script>
+<h1 id="countbox1"></h1>
+</div>
+</div>
 </section>
 
-
-
-
-
-
-
-<section class="hero">
-   <div class="row">
-      <div class="twelve text-center columns">
-         <h3><small>Bienvenido... otra vez</small></h3>
-         <h1>TECHNIUM LAN PARTY 2014</h1>
-         <a href="#" onclick="$('.hero-base').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><img src="images/arrow_sans_down-512.png" width="30"/></a>
-      </div>
-   </div>
-</section>
-
-
-
-
-
+<!--
 <section class="hero-base">
    <div class="row ">
       <div class="twelve columns text-center">
@@ -98,6 +141,14 @@ streetViewControl: false
       </div>
    </div>
 </section>
+-->
+
+
+
+
+
+
+
 
 
 
@@ -685,31 +736,12 @@ streetViewControl: false
    </div>
    <div class="row">
       <div class="twelve columns text-center">
-       <a href="#lista" ><h4>Recuerda traer todo. Aquí tienes una lista</h4></a>
+        <a href="#lista" ><h4>Recuerda traer todo. Aquí tienes una lista</h4></a>
 
-    </div>
- </div>
- <nod class="nodisp" style="opacity:1;"> No disponible por el momento </nod>
+     </div>
+  </div>
+  <nod class="nodisp" style="opacity:1;"> No disponible por el momento </nod>
 </section>
-
-
-
-<!--
-
-
-<section class="map">
-   <div class="row">
-      <div class="twelve columns">
-         <div class="scale_block">
-            <div class="btn_gmap"><a class="button" href="#"><i class="icon-map-marker"></i>&nbsp; Open Google Maps</a></div>
-            <div class="scale"><a href="#"><img src="images/map.png" alt="" /></a></div>
-         </div>
-      </div>
-   </div>
-</section>
-
-
--->
 
 
 <section class="contact" id="pro-contact">
@@ -788,8 +820,8 @@ streetViewControl: false
 </section>
 
 
-<a href="http://goo.gl/maps/Xcm2m" ><div id="mygmap" class="gmap3">
-</div>
+<a href="http://goo.gl/maps/Xcm2m"  >
+<div id="mapa"></div>
 </a>
 
 <section class="footer">
@@ -807,9 +839,6 @@ streetViewControl: false
 </section>
 
 
-
-
-
 <div class="spacer6"></div>
 <div id="nav-bottom">
    <ul class="nav-bottom-list">
@@ -817,28 +846,6 @@ streetViewControl: false
       <li><a onclick="$('#pro-top').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><img src="images/home.png" width="40"/></a></li>
    </ul>
 </div>
-
-
-
-
-
-
-  <!-- JavaScript (Sin comprimir) 
-  
-  <script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script>
-  <script src="javascripts/jquery.event.move.js"></script>
-  <script src="javascripts/jquery.event.swipe.js"></script>
-  <script src="javascripts/jquery.foundation.reveal.js"></script>
-  <script src="javascripts/jquery.foundation.navigation.js"></script>
-  <script src="javascripts/jquery.foundation.buttons.js"></script>
-  <script src="javascripts/jquery.foundation.tabs.js"></script>
-  <script src="javascripts/jquery.foundation.tooltips.js"></script>
-  <script src="javascripts/jquery.foundation.accordion.js"></script>
-  <script src="javascripts/jquery.placeholder.js"></script>
-  <script src="javascripts/jquery.foundation.alerts.js"></script>
-  <script src="javascripts/jquery.foundation.topbar.js"></script>
--->
-
 
 <!-- JavaScript (Comprimido) -->
 <script src="javascripts/jquery.foundation.forms.js"></script>
