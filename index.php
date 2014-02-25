@@ -63,6 +63,7 @@ streetViewControl: false
                <li><a onclick="$('#pro-services').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> Eventos</a></li>
                <li><a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> Torneos</a></li>
                <li><a onclick="$('#mygmap').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> Mapa</a></li>
+               <li><a onclick="$('.clients').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Fotos</a></li>
                <li><a onclick="$('.subscribe').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> ¡Apúntate!</a></li>			   
             </ul>
          </div>
@@ -625,7 +626,7 @@ streetViewControl: false
             <img src="images/staff2.jpg" alt="" />
             <div class="bg-pale">
                <h4>Miguel Esmoris</h4>
-               <h6>&ldquo;zupakode&rdquo;</h6>
+               <h6>&ldquo;esmoris&rdquo;</h6>
             </div>
 
          </div>
