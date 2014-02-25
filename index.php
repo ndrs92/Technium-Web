@@ -51,6 +51,7 @@ streetViewControl: false
                <li><a onclick="$('#pro-services').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Eventos</a></li>
                <li><a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Torneos</a></li>
                <li><a onclick="$('#mygmap').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Mapa</a></li>
+               <li><a onclick="$('.clients').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Fotos</a></li>
             </ul>
             &nbsp; &nbsp; <a class="button" id="sign-up" onclick="$('.subscribe').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">¡Apúntate!</a>
 
@@ -564,6 +565,7 @@ streetViewControl: false
       <div class="six mobile-four text-center columns">
          <h3><small>Un breve vistazo...</small></h3>
          <h1>TECHNIUM 2013</h1>
+         <p><a href="http://imgur.com/a/SbGcE"> Pincha aquí para ver más</a></p>
          <div class="spacer6"></div>
          <!-- Start Cycle -->
          <div class="cycle-slideshow" data-cycle-caption-plugin='caption2' data-cycle-slides="li" data-cycle-fx='scrollHorz' data-cycle-speed='800' data-cycle-timeout='4000' data-cycle-pause-on-hover="true" data-cycle-prev=".prev" data-cycle-next=".next" data-cycle-overlay-template="<div class=banner-background style=background-image:url(images/{{background}})></div>">
@@ -577,7 +579,9 @@ streetViewControl: false
          <a class="prev"><img height=64px width=64px src="images/arrow_left.png" /></i></a>
          <a class="next"><img height=64px width=64px src="images/arrow_right.png" /></i></a>
          <div class="cycle-overlay"></div>
+
       </div>
+      <p><a href="http://imgur.com/a/SbGcE"> Pincha aquí para ver más</a></p>
       <!-- End Cycle -->
    </div>
 </div>
