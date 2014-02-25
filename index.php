@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="es"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
 <head>
   <meta charset="utf-8" />
   <!-- Cambia el viewport dependiendo del dispositivo que se esté usando -->
@@ -86,45 +86,45 @@
          <div class="twelve columns text-center">
            <script type="text/javascript">
            //http://www.ricocheting.com/code/javascript/html-generator/countdown-timer
-dateFuture1 = new Date(2014,3,10,18,1,1);
-function GetCount(ddate,iid){
-   dateNow = new Date(); 
-   amount = ddate.getTime() - dateNow.getTime(); 
-   delete dateNow;
+           dateFuture1 = new Date(2014,3,10,18,1,1);
+           function GetCount(ddate,iid){
+            dateNow = new Date(); 
+            amount = ddate.getTime() - dateNow.getTime(); 
+            delete dateNow;
 
-   if(amount < 0){
-      document.getElementById(iid).innerHTML="¡En el Aire!";
-   }
+            if(amount < 0){
+               document.getElementById(iid).innerHTML="¡En el Aire!";
+            }
 
-   else{
-      days=0;hours=0;mins=0;secs=0;out="";
+            else{
+               days=0;hours=0;mins=0;secs=0;out="";
 
-      amount = Math.floor(amount/1000);
+               amount = Math.floor(amount/1000);
 
-      days=Math.floor(amount/86400);
-      amount=amount%86400;
+               days=Math.floor(amount/86400);
+               amount=amount%86400;
 
-      hours=Math.floor(amount/3600);
-      amount=amount%3600;
+               hours=Math.floor(amount/3600);
+               amount=amount%3600;
 
-      mins=Math.floor(amount/60);
-      amount=amount%60;
+               mins=Math.floor(amount/60);
+               amount=amount%60;
 
-      secs=Math.floor(amount);
+               secs=Math.floor(amount);
 
-      if(days != 0){out += days +" "+((days==1)?"día":"días")+", ";}
-      if(hours != 0){out += hours +" "+((hours==1)?"hora":"horas")+", ";}
-      out += mins +" "+((mins==1)?"min":"mins")+", ";
-      out += secs +" "+((secs==1)?"seg":"segs")+", ";
-      out = out.substr(0,out.length-2);
-      document.getElementById(iid).innerHTML=out;
+               if(days != 0){out += days +" "+((days==1)?"día":"días")+", ";}
+               if(hours != 0){out += hours +" "+((hours==1)?"hora":"horas")+", ";}
+               out += mins +" "+((mins==1)?"min":"mins")+", ";
+               out += secs +" "+((secs==1)?"seg":"segs")+", ";
+               out = out.substr(0,out.length-2);
+               document.getElementById(iid).innerHTML=out;
 
-      setTimeout(function(){GetCount(ddate,iid)}, 1000);
-   }
-}
+               setTimeout(function(){GetCount(ddate,iid)}, 1000);
+            }
+         }
 
-window.onload=function(){
-   GetCount(dateFuture1, 'countbox1');
+         window.onload=function(){
+            GetCount(dateFuture1, 'countbox1');
    //you can add additional countdowns here (just make sure you create dateFuture2 and countbox2 etc for each)
 };
 </script>
@@ -821,7 +821,7 @@ window.onload=function(){
 
 
 <a href="http://goo.gl/maps/Xcm2m"  >
-<div id="mapa"></div>
+   <div id="mapa"></div>
 </a>
 
 <section class="footer">
@@ -833,6 +833,9 @@ window.onload=function(){
             <li><a href="#">Cosa B</a></li>
             <li><a href="#">Cosa C</a></li>-->
             <li><a href="https://github.com/ndrs92">Web: Andrés Vieira Vázquez</a></li>
+            <li><img src="http://simplehitcounter.com/hit.php?uid=1691344&f=16777215&b=0" height="16" width="83"/></li>
+
+
          </ul>
       </div>
    </div>
