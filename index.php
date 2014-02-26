@@ -87,6 +87,7 @@
            <script type="text/javascript">
            //http://www.ricocheting.com/code/javascript/html-generator/countdown-timer
            dateFuture1 = new Date(2014,3,10,18,1,1);
+           dateFuture2 = new Date(2014,2,4,23,59,59);
            function GetCount(ddate,iid){
             dateNow = new Date(); 
             amount = ddate.getTime() - dateNow.getTime(); 
@@ -125,10 +126,12 @@
 
          window.onload=function(){
             GetCount(dateFuture1, 'countbox1');
+            GetCount(dateFuture2, 'countbox2');
    //you can add additional countdowns here (just make sure you create dateFuture2 and countbox2 etc for each)
-};
+};xDD
 </script>
-<h1 id="countbox1"></h1>
+<h1>Party: </h1><h1 id="countbox1"></h1>
+<h1>Inscripciones: </h1><h1 id="countbox2"></h1>
 </div>
 </div>
 </section>
