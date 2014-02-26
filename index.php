@@ -36,7 +36,7 @@
                <ul class="nav-list" id="nav-list">
                   <li><a onclick="$('#pro-services').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Eventos</a></li>
                   <li><a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Torneos</a></li>
-                  <li><a href="https://maps.google.es/maps?q=42.342909,-7.851457&num=1&t=h&z=19" >Mapa</a></li>
+                  <li><a href="https://maps.google.es/maps?q=42.342909,-7.851457&num=1&t=h&z=19" target="_blank">Mapa</a></li>
                   <li><a onclick="$('.clients').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Fotos 2013</a></li>
                </ul>
                &nbsp; &nbsp; <a class="button" id="sign-up" onclick="$('.subscribe').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">¡Apúntate!</a>
@@ -48,7 +48,7 @@
                   <li>&nbsp;</li>
                   <li><a onclick="$('#pro-services').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> Eventos</a></li>
                   <li><a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> Torneos</a></li>
-                  <li><a href="https://maps.google.es/maps?q=42.342909,-7.851457&num=1&t=h&z=19" ><span class="badge"></i></span> Mapa</a></li>
+                  <li><a href="https://maps.google.es/maps?q=42.342909,-7.851457&num=1&t=h&z=19"  target="_blank"><span class="badge"></i></span> Mapa</a></li>
                   <li><a onclick="$('.clients').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Fotos 2013</a></li>
                   <li><a onclick="$('.subscribe').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> ¡Apúntate!</a></li>			   
                </ul>
@@ -617,7 +617,7 @@
       <div class="six mobile-four text-center columns">
          <h3><small>Un breve vistazo...</small></h3>
          <h1>TECHNIUM 2013</h1>
-         <p><a href="http://imgur.com/a/SbGcE"> Pincha aquí para ver más</a></p>
+         <p><a href="http://imgur.com/a/SbGcE"  target="_blank"> Pincha aquí para ver más</a></p>
          <div class="spacer6"></div>
          <!-- Start Cycle -->
          <div class="cycle-slideshow" data-cycle-caption-plugin='caption2' data-cycle-slides="li" data-cycle-fx='scrollHorz' data-cycle-speed='800' data-cycle-timeout='4000' data-cycle-pause-on-hover="true" data-cycle-prev=".prev" data-cycle-next=".next" data-cycle-overlay-template="<div class=banner-background style=background-image:url(images/{{background}})></div>">
@@ -633,7 +633,7 @@
          <div class="cycle-overlay"></div>
 
       </div>
-      <p><a href="http://imgur.com/a/SbGcE"> Pincha aquí para ver más</a></p>
+      <p><a href="http://imgur.com/a/SbGcE"  target="_blank"> Pincha aquí para ver más</a></p>
       <!-- End Cycle -->
    </div>
 </div>
@@ -820,7 +820,7 @@
 </section>
 
 
-<a href="https://maps.google.es/maps?q=42.342909,-7.851457&num=1&t=h&z=19"  >
+<a href="https://maps.google.es/maps?q=42.342909,-7.851457&num=1&t=h&z=19"  target="_blank" >
    <div id="mapa"></div>
 </a>
 
