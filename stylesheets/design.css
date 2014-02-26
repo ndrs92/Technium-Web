@@ -51,10 +51,10 @@ img#logofloat {position: absolute;  top: -50px; z-index: 80;}
 /* =========================================
    Fixed background Sections
 ========================================= */
-section.fix-1 { background-attachment: fixed; height: 450px; background-image: url(../images/fix-1.jpg); background-size: cover; }
-section.fix-2 { background-attachment: fixed; height: 450px; background-image: url(../images/t2013_2.jpg); background-size: cover; }
-section.fix-3 { background-attachment: fixed; height: 450px; background-image: url(../images/t2013_3.jpg); background-size: cover; }
-section.fix-4 { background-attachment: fixed; height: 450px; background-image: url(../images/t2013_4.jpg); background-size: cover; }
+section.fix-1 { background-attachment: fixed; height: 850px; background-image: url(../images/fix-1.jpg); background-size: cover; }
+section.fix-2 { background-attachment: fixed; height: 850px; background-image: url(../images/t2013_2.jpg); background-size: cover; }
+section.fix-3 { background-attachment: fixed; height: 850px; background-image: url(../images/t2013_3.jpg); background-size: cover; }
+section.fix-4 { background-attachment: fixed; height: 850px; background-image: url(../images/t2013_4.jpg); background-size: cover; }
 
 
 /* =========================================
