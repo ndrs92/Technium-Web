@@ -60,8 +60,26 @@
 
 
 
+<section class="hero" >
+         <video id="video" autoplay="autoplay" muted loop>
+            <source src="vid.mp4" type="video/mp4" />
+            Tu navegador no soporta video incrustado.
+         </video>
 
 
+   </section>
+
+
+
+         <div class="row" id="hovering">
+         <div class="twelve text-center columns">
+            <h3><small>Bienvenido... otra vez</small></h3>
+            <h1>TECHNIUM LAN PARTY 2014</h1>
+            <a href="#" onclick="$('.hero-base').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><img src="images/arrow_sans_down-512.png" width="30"/></a>
+         </div>
+      </div>   
+
+<!--
 
    <section class="hero">
       <div class="row">
@@ -72,11 +90,7 @@
          </div>
       </div>
    </section>
-
-
-
-
-
+-->
 
 
 
@@ -128,10 +142,10 @@
             GetCount(dateFuture1, 'countbox1');
             GetCount(dateFuture2, 'countbox2');
    //you can add additional countdowns here (just make sure you create dateFuture2 and countbox2 etc for each)
-};xDD
+};
 </script>
-<h1>Party: </h1><h1 id="countbox1"></h1>
-<h1>Inscripciones: </h1><h1 id="countbox2"></h1>
+<h1 >Party: <h1 id="countbox1"></h1></h1>
+<h1 >Inscripciones: <h1 id="countbox2"></h1></h1>
 <h3> Las inscripciones se han aplazado un día por motivos técnicos y organizativos. Disculpen las molestias.</h3> 
 </div>
 </div>
