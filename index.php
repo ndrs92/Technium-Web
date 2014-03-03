@@ -63,6 +63,8 @@
 <section class="hero" >
          <video id="video" autoplay="autoplay" muted loop>
             <source src="vid.mp4" type="video/mp4" />
+            <source src="vid.webm" type="video/webm" />
+
             Tu navegador no soporta video incrustado.
          </video>
 
