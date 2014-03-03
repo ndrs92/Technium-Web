@@ -566,8 +566,10 @@ border-color: red;
 
 #hovering{
   position: absolute;
-  top: 500px;
-  left:30%;
+  width: 100px;
+  margin-left:-400px;
+  top:50px;
+  left:50%;
 }
 
 #countbox1 #countbox2 #countboxtext1 #countboxtext2{

@@ -68,11 +68,6 @@
             Tu navegador no soporta video incrustado.
          </video>
 
-
-   </section>
-
-
-
          <div class="row" id="hovering">
          <div class="twelve text-center columns">
             <h3><small>Bienvenido... otra vez</small></h3>
@@ -80,6 +75,11 @@
             <a href="#" onclick="$('.hero-base').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><img src="images/arrow_sans_down-512.png" width="30"/></a>
          </div>
       </div>   
+
+   </section>
+
+
+
 
 <!--
 
