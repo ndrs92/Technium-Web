@@ -42,7 +42,7 @@ function registrar(){
 }
 function mostrar(){
 	connect();
-	
+	echo '<head><meta charset="utf-8" /></head>';
 	$result = mysql_query("SELECT * FROM registros WHERE borrado=0");
 	$num = mysql_num_rows($result);
 	$i = 0;
@@ -70,7 +70,7 @@ function mostrar(){
 	        echo "<td>".$row["nick"]."</td>";
 	        echo "<td>".$row["dni"]."</td>";
 	        echo "<td>".$row["correo"]."</td>";
-	        echo "<td>".$row["equipo"]."w</td>";
+	        echo "<td>".$row["equipo"]."</td>";
 	        echo "<td>".$row["telefono"]."</td>";
 	        echo "<td>".$row["fecha"]."</td>";
 	        if($row["admitido"]){
