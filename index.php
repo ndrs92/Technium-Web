@@ -800,7 +800,7 @@
             <!--<li><a href="#">Cosa A</a></li>
             <li><a href="#">Cosa B</a></li>
             <li><a href="#">Cosa C</a></li>-->
-            <li><a href="https://github.com/ndrs92">Web: Andrés Vieira Vázquez</a></li>
+            <li><a href="https://github.com/ndrs92">Web: Andrés Vieira Vázquez</a> & Adolfo Álvarez López</li>
             <li><img src="http://simplehitcounter.com/hit.php?uid=1691344&f=16777215&b=0" height="16" width="83"/></li>
 
 
