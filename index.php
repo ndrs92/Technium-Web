@@ -2,22 +2,22 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="es"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8" />
-  <!-- Cambia el viewport dependiendo del dispositivo que se esté usando -->
-  <meta name="viewport" content="width=device-width" />
+ <meta charset="utf-8" />
+ <!-- Cambia el viewport dependiendo del dispositivo que se esté usando -->
+ <meta name="viewport" content="width=device-width" />
 
-  <title>10 a 13 de Abril - Technium 2014</title>
+ <title>10 a 13 de Abril - Technium 2014</title>
 
-  <!-- CSS incluídos (Comprimido) -->
-  <link rel="stylesheet" href="stylesheets/foundation.css">
-  <link rel="stylesheet" href="stylesheets/design.css">
-  <link rel="icon" type="image/png" href="/favico.ico">
-  <script src="javascripts/jquery.js"></script>
-  <script src="javascripts/jquery.scrollzip.js"></script>
-  <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
-  <script src="javascripts/gmap3.js"></script>
-  <script src="javascripts/modernizr.foundation.js"></script>
-  <script src="javascripts/load.js"></script>
+ <!-- CSS incluídos (Comprimido) -->
+ <link rel="stylesheet" href="stylesheets/foundation.css">
+ <link rel="stylesheet" href="stylesheets/design.css">
+ <link rel="icon" type="image/png" href="/favico.ico">
+ <script src="javascripts/jquery.js"></script>
+ <script src="javascripts/jquery.scrollzip.js"></script>
+ <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+ <script src="javascripts/gmap3.js"></script>
+ <script src="javascripts/modernizr.foundation.js"></script>
+ <script src="javascripts/load.js"></script>
 
 
 </head>
@@ -27,7 +27,7 @@
       <div class="row collapse">
          <div class="three columns mobile-three">
             <div class="logo">
-               <img id="logofloat" src="images/logotech1.png"  alt="Flatline" />
+               <img id="logofloat" src="images/logotech1.png"  alt="Technium" />
             </div>
          </div>
          <div class="nine columns mobile-one">
@@ -60,15 +60,15 @@
 
 
 
-<section class="hero" >
-         <video id="video" autoplay="autoplay" muted loop>
-            <source src="vid.mp4" type="video/mp4" />
-            <source src="vid.webm" type="video/webm" />
+   <section class="hero" >
+      <video id="video" autoplay="autoplay" muted loop>
+         <source src="vid.mp4" type="video/mp4" />
+         <source src="vid.webm" type="video/webm" />
 
-            Tu navegador no soporta video incrustado.
-         </video>
+         Tu navegador no soporta video incrustado.
+      </video>
 
-         <div class="row" id="hovering">
+      <div class="row" id="hovering">
          <div class="twelve text-center columns">
             <h3><small>Bienvenido... otra vez</small></h3>
             <h1>TECHNIUM LAN PARTY 2014</h1>
@@ -97,13 +97,13 @@
 
 
 
-   <section class="hero-base">
-      <div class="row ">
-         <div class="twelve columns text-center">
-           <script type="text/javascript">
+<section class="hero-base">
+   <div class="row ">
+      <div class="twelve columns text-center">
+       <script type="text/javascript">
            //http://www.ricocheting.com/code/javascript/html-generator/countdown-timer
            dateFuture1 = new Date(2014,3,10,18,1,1);
-           dateFuture2 = new Date(2014,2,5,23,59,59);
+           dateFuture2 = new Date(2014,3,3,18,1,1);
            function GetCount(ddate,iid){
             dateNow = new Date(); 
             amount = ddate.getTime() - dateNow.getTime(); 
@@ -146,9 +146,9 @@
    //you can add additional countdowns here (just make sure you create dateFuture2 and countbox2 etc for each)
 };
 </script>
-<h1 >Party: <h1 id="countbox1"></h1></h1>
-<h1 >Inscripciones: <h1 id="countbox2"></h1></h1>
-<h3> Las inscripciones se han aplazado un día por motivos técnicos y organizativos. Disculpen las molestias.</h3> 
+<h1 id="party">Ya queda menos: <h1 id="countbox1"></h1></h1><br/>
+<h1 id="abierto">¡Inscripciones Abiertas! Precio de entrada al recinto: 15€</h1><br/>
+<h1 id="party">Las inscripciones cierran en: <h1 id="countbox2"></h1></h1>
 </div>
 </div>
 </section>
@@ -435,20 +435,19 @@
 
 
 
-   <!--
    <div class="row">
       <div class="three mobile-two columns">
          <figure class="project" id="project01">
             <div class="thumb">
-               <a class="open-project" data-project="01" href="#project01"> <img src="images/feat-01.jpg" alt="" /></a>
+               <a class="open-project" data-project="01" href="#project01"> <img src="images/lol500.png" alt="" />
 
-            </div>
-            <figcaption>
-               <h3>League Of Legends</h3>
-               <p>Technium 2014</p>
-            </figcaption>
-         </figure>
-
+               </div>
+               <figcaption>
+                  <h3>League Of Legends</h3>
+                  <p>Technium 2014</p>
+               </figcaption>
+            </figure>
+         </a>
          <div class="project-window" id="showcase01">
             <div class="row collapse content">
                <div class="twelve columns">
@@ -528,13 +527,14 @@
    <div class="three mobile-two columns">
       <figure class="project" id="project02">
          <div class="thumb">
-            <a class="open-project" data-project="02" href="#project02"><img src="images/feat-02.jpg" alt="" /></a>
+            <a class="open-project" data-project="02" href="#project02"><img src="images/feat-02.jpg" alt="" />
 
-         </div>
-         <figcaption>
-            <h3>Counter Strike: Global Offensive</h3>
-            <p>Technium 2014</p>
-         </figcaption>
+            </div>
+            <figcaption>
+               <h3>Counter Strike: Global Offensive</h3>
+               <p>Technium 2014</p>
+            </figcaption>
+         </a>
       </figure>
       <div class="project-window" id="showcase02">
          <div class="row collapse content">
@@ -616,7 +616,6 @@
 </div>
 </div>
 
--->
 
 </section>
 
@@ -659,14 +658,7 @@
 </div>
 </section>
 
-
-
-
 <section class="fix-3"></section>
-
-
-
-
 
 <section class="team" id="pro-team">
 
@@ -715,18 +707,9 @@
    </div>
 </section>
 
-
-
-
-
-
 <section class="fix-4"></section>
 
-
-
-
-
-<section class="subscribe" id="aunno">
+<section class="subscribe" id="inscripcion">
    <div class="row">
       <div class="twelve columns text-center">
          <h1>¡APÚNTATE YA!</h1>
@@ -734,33 +717,40 @@
       </div>
    </div>
    <div class="row">
-      <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate bg-light">
+      <form action="inscripcion/DB.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate bg-light">
          <div class="four columns mobile-four">
-            <input type="text" name="name" class="oversize" placeholder="Nombre" />
+            <input type="text" name="nombre" maxlength="100" class="oversize" placeholder="Nombre" />
+         </div>
+
+         <div class="four columns mobile-four">
+            <input type="text" name="nick" maxlength="20" class="oversize" placeholder="Nick" />
          </div>
          <div class="four columns mobile-four">
-            <input type="text" name="name" class="oversize" placeholder="Nick" />
-         </div>
-         <div class="four columns mobile-four">
-            <input type="text" name="name" class="oversize" placeholder="Teléfono" />
+            <input type="text" maxlength="9" name="telefono" class="oversize" placeholder="Teléfono" />
          </div>
          <br>
          <div class="four columns mobile-four">
-            <input type="text" name="email" id="mce-EMAIL" class="oversize" placeholder="Correo" />
+            <input type="text" name="correo" maxlength="50" id="mce-EMAIL" class="oversize" placeholder="Correo" />
          </div>
+         
          <div class="four columns mobile-four">
+            <textarea id="equipo" name="potencia" id="mce-EMAIL" class="oversize" placeholder="Por favor, introduce datos sobre el equipo que vas a traer, para calcular su consumo. Agradecemos información sobre la fuente de alimentación, procesador y gráfica, fundamentalmente. Por favor, indica si vas a traer sobremesa, portátil, o ambos. Muchas gracias."></textarea>
+         </div>
+         
+
+         <div >
+            <input type="hidden" name="tipo" value="registrar" >
             <input type="submit" class="button large expand" id="mc-embedded-subscribe" name="subscribe" value="Registrarse">
 
          </div>
+         <div class="four columns mobile-four">
+            <input type="text" name="dni" maxlength="9" id="dni" class="oversize" placeholder="DNI" />
+         </div>
       </form>
+      <a href="normas.pdf"><input type="submit" class="button large expand" id="normas" value="[PDF] Normas"></a>
+      <a href="cosas.pdf"><input type="submit" class="button large expand" id="cosas" value="[PDF] Cosas que debes traer"></a>
+      <a href="auto.pdf"><input type="submit" class="button large expand" id="aut" value="[PDF] Autorización de menores"></a>
    </div>
-   <div class="row">
-      <div class="twelve columns text-center">
-        <a href="#lista" ><h4>Recuerda traer todo. Aquí tienes una lista</h4></a>
-
-     </div>
-  </div>
-  <nod class="nodisp" style="opacity:1;"> No disponible por el momento </nod>
 </section>
 
 
@@ -773,70 +763,28 @@
       </div>
    </div>	
 
-   <!-- Formulario de contacto, se decidirá mas tarde si se pone -->
-  <!-- <form class="bg-light" id="contactfrm" method="post" action="mail.php">
-      <div class="row">
-         <div class="six columns mobile-four">
-            <input type="text" name="name" id="name" class="oversize" placeholder="Nombre" />
-         </div>
-         <div class="six columns mobile-four">
-            <input type="text" name="email" id="email" class="oversize" placeholder="Email" />
-         </div>
+   <div class="spacer6"></div>
+
+   <div class="row">
+      <div class="three columns mobile-two"></div>
+      <div class="three columns mobile-two">
+         <h5>Asociación</h5>
+         <ul class="no-bullet">
+            <li><strong>ASEII</strong></li>
+            <li>Asociación Sectorial de Estudiantes de Ingeniería Informática</li>
+            <li>aseii.contacto@aseii.es</li>
+         </ul>
       </div>
-      <div class="row">
-         <div class="twelve columns mobile-four">
-            <input type="text" name="budget" id="budget" class="oversize" placeholder="Asunto" />
-         </div>
+      <div class="three columns mobile-two">
+         <h5>Posible gracias a...</h5>
+         <ul class="no-bullet">
+            <li><strong>Escola Superior de Enxeñería Informática</strong></li>
+            <li>Campus de Ourense</li>
+            <li>www.esei.uvigo.es</li>
+         </ul>
       </div>
-      <div class="row">
-         <div class="twelve columns mobile-four">
-            <textarea placeholder="Contenido" class="oversize" name="message" id="message" style="height:300px;"></textarea>
-         </div>
-      </div>
-      <div class="row">
-         <div class="twelve columns mobile-four">
-            <input type="submit" class="button large expand" value="Enviar Mensaje">
-         </div>
-      </div>
-</form>
-	
-  <div id="loading">
-<div class="text-center">
-<img src="images/loader.gif" alt="" />
-    <h3>Enviando tu mensaje....</h3>
-</div>
-  </div>
-  <div id="success">
-  </div>
--->
-
-
-
-<div class="spacer6"></div>
-
-
-<div class="row">
-   <div class="three columns mobile-two"></div>
-   <div class="three columns mobile-two">
-      <h5>Asociación</h5>
-      <ul class="no-bullet">
-         <li><strong>ASEII</strong></li>
-         <li>Asociación Sectorial de Estudiantes de Ingeniería Informática</li>
-         <li>aseii.contacto@aseii.es</li>
-      </ul>
+      <div class="three columns mobile-two"></div>
    </div>
-   <div class="three columns mobile-two">
-      <h5>Posible gracias a...</h5>
-      <ul class="no-bullet">
-         <li><strong>Escola Superior de Enxeñería Informática</strong></li>
-         <li>Campus de Ourense</li>
-         <li>www.esei.es</li>
-      </ul>
-   </div>
-   <div class="three columns mobile-two"></div>
-
-
-</div>
 </section>
 
 
@@ -848,7 +796,7 @@
    <div class="row">
       <div class="twelve columns">
          <ul class="link-list">
-            <li>&copy; 2014 Technium</li>
+            <li><a href="inscripcion/login.php">&copy; 2014 Technium</a></li>
             <!--<li><a href="#">Cosa A</a></li>
             <li><a href="#">Cosa B</a></li>
             <li><a href="#">Cosa C</a></li>-->
