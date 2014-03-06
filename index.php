@@ -2,22 +2,22 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="es"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
 <head>
- <meta charset="utf-8" />
- <!-- Cambia el viewport dependiendo del dispositivo que se esté usando -->
- <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <!-- Cambia el viewport dependiendo del dispositivo que se esté usando -->
+  <meta name="viewport" content="width=device-width" />
 
- <title>10 a 13 de Abril - Technium 2014</title>
+  <title>10 a 13 de Abril - Technium 2014</title>
 
- <!-- CSS incluídos (Comprimido) -->
- <link rel="stylesheet" href="stylesheets/foundation.css">
- <link rel="stylesheet" href="stylesheets/design.css">
- <link rel="icon" type="image/png" href="/favico.ico">
- <script src="javascripts/jquery.js"></script>
- <script src="javascripts/jquery.scrollzip.js"></script>
- <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
- <script src="javascripts/gmap3.js"></script>
- <script src="javascripts/modernizr.foundation.js"></script>
- <script src="javascripts/load.js"></script>
+  <!-- CSS incluídos (Comprimido) -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/design.css">
+  <link rel="icon" type="image/png" href="/favico.ico">
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/jquery.scrollzip.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+  <script src="javascripts/gmap3.js"></script>
+  <script src="javascripts/modernizr.foundation.js"></script>
+  <script src="javascripts/load.js"></script>
 
 
 </head>
@@ -100,7 +100,7 @@
 <section class="hero-base">
    <div class="row ">
       <div class="twelve columns text-center">
-       <script type="text/javascript">
+        <script type="text/javascript">
            //http://www.ricocheting.com/code/javascript/html-generator/countdown-timer
            dateFuture1 = new Date(2014,3,10,18,1,1);
            dateFuture2 = new Date(2014,3,3,18,1,1);
@@ -599,7 +599,7 @@
                               2- El torneo tendrá un límite de 64 participantes, con enfrentamientos de eliminación directa uno contra uno, quedando de la siguiente manera:<br/><br/>
                            </p>
                            <div style="text-align:center;">
-                            <p>
+                             <p>
                               Primera ronda: 64 jugadores<br/>
                               Segunda ronda: 32 jugadores<br/>
                               Octavos de final: 16 jugadores<br/>
@@ -622,6 +622,37 @@
                            8- En caso de que ambos participantes no estén presentes, el partido  quedará como Partido No Jugado (PNJ).<br/>
 
                            9- En caso de abandono voluntario durante el partido, al jugador se le  dará por perdido el partido, sumando 3 goles en contra, más al resultado  parcial antes del abandono. <br/>
+                           
+                           10- En caso de conflicto , la organización tiene la última palabra , siendo esta definitiva e inapelable.<br/>
+                           11- La organización se reserva el derecho de modificar la configuración de los partidos en función del número de participantes y otros motivos que crean convenientes . Sin embargo , se reserva el derecho de admisión y tomará decisiones en caso de cualquier polémica que pueda surgir .<br/>
+
+
+                           <h3 style="color:black;">Normas del torneo</h3>
+                           <p>
+                              1- La configuración personal así como los botones, podrá ser variada por cada jugador al comienzo de cada partido, se dispondrá de hasta 5 minutos para hacerlo.<br/>
+                              2- La cámara será " Televisión " por defecto. Aún así , si los jugadores se ponen de acuerdo, pueden cambiarla de mutuo acuerdo.<br/>
+                              3- Se podrán realizar sustituciones cuando el jugador tenga la posesión y sólo a balón parado . Cada jugador tendrá un total de 3 pausas por partido, debiendo informar al jugador rival antes de efectuar dicha pausa.  El tiempo máximo para realizar cambios será de 60 segundos en la media parte y 45 segundos durante. <br/>
+                              4- Si se registra una pausa que la organización considere que no está justificada y afecta directamente al rival, se penalizará con un gol en contra.<br/>
+                              5- Cada uno podrá llevar su "mando" de casa para poder jugar los partidos. En caso de que no disponga de "mando" , la organización le facilitará uno .<br/>
+                           </p>
+                           <h3 style="color:black;">Configuración de los partidos</h3>
+                        </p>
+                        <p>
+                        Duración cada parte: 6 minutos ( partido normal, 9 para la final )<br/>
+                        Dificultad: Leyenda<br/>
+                        Árbitro: Aleatorio<br/>
+                        Momento del día: Aleatorio<br/>
+                        Clima: Despejado<br/>
+                        Desgaste del campo: Aleatorio<br/>
+                        Velocidad: Normal<br/>
+                        Lesiones: Si<br/>
+                        Fueras de juego: Si<br/>
+                        Tarjetas: Si<br/>
+                        Número de Sustituciones: 3<br/>
+                        Camara: Televisión<br/>
+                        Manos: Si, salvo penalti.<br/>
+                        Parametros Usuarios: predeterminados<br/>
+
                         </p>
                      </h5>
                   </div>
