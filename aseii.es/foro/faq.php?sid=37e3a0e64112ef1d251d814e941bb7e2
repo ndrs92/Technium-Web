@@ -1,0 +1,917 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="es" xml:lang="es">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-language" content="es" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<title>Technium &bull; Preguntas Frecuentes</title>
+
+<link rel="alternate" type="application/atom+xml" title="Feed - Technium" href="http://aseii.es/foro/feed.php" /><link rel="alternate" type="application/atom+xml" title="Feed - Nuevos Temas" href="http://aseii.es/foro/feed.php?mode=topics" />
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:
+-->
+
+<script type="text/javascript">
+// <![CDATA[
+	var jump_page = 'Introduzca el número de página al que desea saltar:';
+	var on_page = '';
+	var per_page = '';
+	var base_url = '';
+	var style_cookie = 'phpBBstyle';
+	var style_cookie_settings = '; path=/; domain=193.147.87.14';
+	var onload_functions = new Array();
+	var onunload_functions = new Array();
+
+	
+
+	/**
+	* Find a member
+	*/
+	function find_username(url)
+	{
+		popup(url, 760, 570, '_usersearch');
+		return false;
+	}
+
+	/**
+	* New function for handling multiple calls to window.onload and window.unload by pentapenguin
+	*/
+	window.onload = function()
+	{
+		for (var i = 0; i < onload_functions.length; i++)
+		{
+			eval(onload_functions[i]);
+		}
+	};
+
+	window.onunload = function()
+	{
+		for (var i = 0; i < onunload_functions.length; i++)
+		{
+			eval(onunload_functions[i]);
+		}
+	};
+
+// ]]>
+</script>
+<script type="text/javascript" src="./styles/prosilver/template/styleswitcher.js"></script>
+<script type="text/javascript" src="./styles/prosilver/template/forum_fn.js"></script>
+
+<link href="./styles/prosilver/theme/print.css" rel="stylesheet" type="text/css" media="print" title="printonly" />
+<link href="./style.php?id=1&amp;lang=es&amp;sid=37e3a0e64112ef1d251d814e941bb7e2" rel="stylesheet" type="text/css" media="screen, projection" />
+
+<link href="./styles/prosilver/theme/normal.css" rel="stylesheet" type="text/css" title="A" />
+<link href="./styles/prosilver/theme/medium.css" rel="alternate stylesheet" type="text/css" title="A+" />
+<link href="./styles/prosilver/theme/large.css" rel="alternate stylesheet" type="text/css" title="A++" />
+
+
+
+</head>
+
+<body id="phpbb" class="section-faq ltr">
+
+<div id="wrap">
+	<a id="top" name="top" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar">
+			<div class="inner"><span class="corners-top"><span></span></span>
+
+			<div id="site-description">
+				<a href="./index.php?sid=37e3a0e64112ef1d251d814e941bb7e2" title="Índice general" id="logo"><img src="./styles/prosilver/imageset/site_logo.gif" width="149" height="52" alt="" title="" /></a>
+				<h1>Technium</h1>
+				<p></p>
+				<p class="skiplink"><a href="#start_here">Obviar</a></p>
+			</div>
+
+		
+			<div id="search-box">
+				<form action="./search.php?sid=37e3a0e64112ef1d251d814e941bb7e2" method="get" id="search">
+				<fieldset>
+					<input name="keywords" id="keywords" type="text" maxlength="128" title="Buscar palabras clave" class="inputbox search" value="Buscar…" onclick="if(this.value=='Buscar…')this.value='';" onblur="if(this.value=='')this.value='Buscar…';" />
+					<input class="button2" value="Buscar" type="submit" /><br />
+					<a href="./search.php?sid=37e3a0e64112ef1d251d814e941bb7e2" title="Ver opciones de búsqueda avanzada">Búsqueda avanzada</a> <input type="hidden" name="sid" value="37e3a0e64112ef1d251d814e941bb7e2" />
+
+				</fieldset>
+				</form>
+			</div>
+		
+
+			<span class="corners-bottom"><span></span></span></div>
+		</div>
+
+		<div class="navbar">
+			<div class="inner"><span class="corners-top"><span></span></span>
+
+			<ul class="linklist navlinks">
+				<li class="icon-home"><a href="./index.php?sid=37e3a0e64112ef1d251d814e941bb7e2" accesskey="h">Índice general</a> </li>
+
+				<li class="rightside"><a href="#" onclick="fontsizeup(); return false;" onkeypress="return fontsizeup(event);" class="fontsize" title="Cambiar tamaño de la fuente">Cambiar tamaño de la fuente</a></li>
+
+				
+			</ul>
+
+			
+
+			<ul class="linklist rightside">
+				<li class="icon-faq"><a href="./faq.php?sid=37e3a0e64112ef1d251d814e941bb7e2" title="Preguntas Frecuentes">FAQ</a></li>
+				<li class="icon-register"><a href="./ucp.php?mode=register&amp;sid=37e3a0e64112ef1d251d814e941bb7e2">Registrarse</a></li>
+					<li class="icon-logout"><a href="./ucp.php?mode=login&amp;sid=37e3a0e64112ef1d251d814e941bb7e2" title="Identificarse" accesskey="x">Identificarse</a></li>
+				
+			</ul>
+
+			<span class="corners-bottom"><span></span></span></div>
+		</div>
+
+	</div>
+
+	<a name="start_here"></a>
+	<div id="page-body">
+		
+
+<h2>Preguntas Frecuentes</h2>
+
+
+<div class="panel bg1" id="faqlinks">
+	<div class="inner"><span class="corners-top"><span></span></span>
+		<div class="column1">
+		
+
+			<dl class="faq">
+				<dt><strong>Problemas acerca de la identificación y el registro</strong></dt>
+				
+					<dd><a href="#f0r0">¿Por qué no puedo identificarme?</a></dd>
+				
+					<dd><a href="#f0r1">¿Por qué me tengo que registrar?</a></dd>
+				
+					<dd><a href="#f0r2">¿Por qué mi sesión de usuario expira automáticamente?</a></dd>
+				
+					<dd><a href="#f0r3">¿Cómo evito que mi nombre de usuario aparezca en las listas de usuarios identificados?</a></dd>
+				
+					<dd><a href="#f0r4">¡Perdí mi contraseña!</a></dd>
+				
+					<dd><a href="#f0r5">Me he registrado ¡y no me puedo identificar!</a></dd>
+				
+					<dd><a href="#f0r6">Hace un tiempo me registré, ¡pero ahora no puedo conectarme!</a></dd>
+				
+					<dd><a href="#f0r7">¿Qué es COPPA? (APPCO)</a></dd>
+				
+					<dd><a href="#f0r8">¿Por qué no puedo registrarme?</a></dd>
+				
+					<dd><a href="#f0r9">¿Cuál es la función de "Borrar todas las cookies del Sitio"?</a></dd>
+				
+			</dl>
+		
+
+			<dl class="faq">
+				<dt><strong>Preferencias de usuario y configuraciones</strong></dt>
+				
+					<dd><a href="#f1r0">¿Cómo se puede cambiar mi configuración?</a></dd>
+				
+					<dd><a href="#f1r1">¡La hora en los foros no es correcta!</a></dd>
+				
+					<dd><a href="#f1r2">Cambié la zona horaria en mi perfil, ¡pero la hora sigue siendo incorrecto!</a></dd>
+				
+					<dd><a href="#f1r3">¡Mi idioma no está en la lista!</a></dd>
+				
+					<dd><a href="#f1r4">¿Cómo se puede poner una imagen debajo de mi nombre de usuario?</a></dd>
+				
+					<dd><a href="#f1r5">¿Cómo se puede cambiar mi rango?</a></dd>
+				
+					<dd><a href="#f1r6">Cuando hago clic sobre el enlace de e-mail de un usuario, ¡me pide que me registre!</a></dd>
+				
+			</dl>
+		
+
+			<dl class="faq">
+				<dt><strong>Publicación de mensajes</strong></dt>
+				
+					<dd><a href="#f2r0">¿Cómo se puede publicar un mensaje en el foro?</a></dd>
+				
+					<dd><a href="#f2r1">¿Cómo se puede editar o borrar un mensaje?</a></dd>
+				
+					<dd><a href="#f2r2">¿Cómo se puede añadir una firma a mi mensaje?</a></dd>
+				
+					<dd><a href="#f2r3">¿Cómo creo una encuesta?</a></dd>
+				
+					<dd><a href="#f2r4">¿Por qué no se puede añadir más opciones a la encuesta?</a></dd>
+				
+					<dd><a href="#f2r5">¿Cómo edito o borro una encuesta?</a></dd>
+				
+					<dd><a href="#f2r6">¿Por qué no se puede acceder a algún foro?</a></dd>
+				
+					<dd><a href="#f2r7">¿Por qué no se puede añadir archivos adjuntos?</a></dd>
+				
+					<dd><a href="#f2r8">¿Por qué recibí una advertencia?</a></dd>
+				
+					<dd><a href="#f2r9">¿Cómo se puede reportar un mensaje a un moderador?</a></dd>
+				
+					<dd><a href="#f2r10">¿Para qué sirve el botón "Guardar" en la publicación de temas?</a></dd>
+				
+					<dd><a href="#f2r11">¿Por qué mis mensajes necesitan ser aprobados?</a></dd>
+				
+					<dd><a href="#f2r12">¿Cómo hago para reactivar un tema?</a></dd>
+				
+			</dl>
+		
+
+			<dl class="faq">
+				<dt><strong>Formatos y tipos de temas</strong></dt>
+				
+					<dd><a href="#f3r0">¿Qué es el código BBCode?</a></dd>
+				
+					<dd><a href="#f3r1">¿Puedo usar HTML?</a></dd>
+				
+					<dd><a href="#f3r2">¿Qué son los emoticonos?</a></dd>
+				
+					<dd><a href="#f3r3">¿Puedo publicar imagenes?</a></dd>
+				
+					<dd><a href="#f3r4">¿Qué son los anuncios globales?</a></dd>
+				
+					<dd><a href="#f3r5">¿Qué son los anuncios?</a></dd>
+				
+					<dd><a href="#f3r6">¿Qué son los temas fijos?</a></dd>
+				
+					<dd><a href="#f3r7">¿Qué son los temas cerrados?</a></dd>
+				
+					<dd><a href="#f3r8">¿Qué son los iconos para los temas?</a></dd>
+				
+			</dl>
+		
+				</div>
+
+				<div class="column2">
+			
+
+			<dl class="faq">
+				<dt><strong>Niveles de usuario y grupos</strong></dt>
+				
+					<dd><a href="#f4r0">¿Qué son los Administradores?</a></dd>
+				
+					<dd><a href="#f4r1">¿Qué son los Moderadores?</a></dd>
+				
+					<dd><a href="#f4r2">¿Qué son los Grupos de Usuarios?</a></dd>
+				
+					<dd><a href="#f4r3">¿Donde están los Grupos de Usuarios y como me puedo unir a ellos?</a></dd>
+				
+					<dd><a href="#f4r4">¿Cómo me convierto en Responsable del Grupo?</a></dd>
+				
+					<dd><a href="#f4r5">¿Por qué algunos Grupos de Usuarios aparecen en diferentes colores?</a></dd>
+				
+					<dd><a href="#f4r6">¿Qué es un "Grupo de Usuarios predeterminado"?</a></dd>
+				
+					<dd><a href="#f4r7">¿Qué es el enlace "El equipo"?</a></dd>
+				
+			</dl>
+		
+
+			<dl class="faq">
+				<dt><strong>Mensajería privada</strong></dt>
+				
+					<dd><a href="#f5r0">¡No puedo enviar un mensaje privado!</a></dd>
+				
+					<dd><a href="#f5r1">¡Recibo mensajes privados no deseados!</a></dd>
+				
+					<dd><a href="#f5r2">¡Recibí spam o correos maliciosos de alguien en este foro!</a></dd>
+				
+			</dl>
+		
+
+			<dl class="faq">
+				<dt><strong>Amigos e Ignorados</strong></dt>
+				
+					<dd><a href="#f6r0">¿Qué es la lista de Mis Amigos e Ignorados?</a></dd>
+				
+					<dd><a href="#f6r1">¿Cómo se puede añadir o borrar usuarios de mi lista de Amigos e Ignorados?</a></dd>
+				
+			</dl>
+		
+
+			<dl class="faq">
+				<dt><strong>Búsqueda en los foros</strong></dt>
+				
+					<dd><a href="#f7r0">¿Cómo se puede buscar en uno o varios foros?</a></dd>
+				
+					<dd><a href="#f7r1">¿Por qué mi búsqueda me devuelve ningún resultado?</a></dd>
+				
+					<dd><a href="#f7r2">¿Por qué mi búsqueda me devuelve una página en blanco?</a></dd>
+				
+					<dd><a href="#f7r3">¿Cómo busco usuarios?</a></dd>
+				
+					<dd><a href="#f7r4">¿Como se puede encontrar mis propios mensajes y temas?</a></dd>
+				
+			</dl>
+		
+
+			<dl class="faq">
+				<dt><strong>Suscripción y Añadido de temas a Favoritos</strong></dt>
+				
+					<dd><a href="#f8r0">¿Cuál es la diferencia entre añadir como Favorito y suscribirme a un tema?</a></dd>
+				
+					<dd><a href="#f8r1">¿Cómo me suscribo a un foro o tema específico?</a></dd>
+				
+					<dd><a href="#f8r2">¿Cómo borro mis suscripciones?</a></dd>
+				
+			</dl>
+		
+
+			<dl class="faq">
+				<dt><strong>Archivos Adjuntos</strong></dt>
+				
+					<dd><a href="#f9r0">¿Qué archivos adjuntos son permitidos en este foro?</a></dd>
+				
+					<dd><a href="#f9r1">¿Cómo encuentro todos mis archivos adjuntos?</a></dd>
+				
+			</dl>
+		
+
+			<dl class="faq">
+				<dt><strong>Acerca de phpBB3</strong></dt>
+				
+					<dd><a href="#f10r0">¿Quién programó este foro?</a></dd>
+				
+					<dd><a href="#f10r1">¿Por qué este foro no tiene tal cosa?</a></dd>
+				
+					<dd><a href="#f10r2">¿Con quién se puede contactar acerca de abusos o usos ilegales relacionados con este foro?</a></dd>
+				
+			</dl>
+		
+		</div>
+	<span class="corners-bottom"><span></span></span></div>
+</div>
+
+
+
+<div class="clear"></div>
+
+
+	<div class="panel bg2">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="content">
+			<h2>Problemas acerca de la identificación y el registro</h2>
+			
+				<dl class="faq">
+					<dt id="f0r0"><strong>¿Por qué no puedo identificarme?</strong></dt>
+					<dd>Existen varias razones por lo cuál esto puede suceder. Primero, asegúrese de que su nombre de usuario y contraseña se encuentren escritos correctamente. Si lo están, comuníquese con La Administración para asegurarse de que no ha sido excluido. También es posible que el foro esté mal configurado por su dueño y/o tenga fallos en la programación, por lo que necesitaría ser reparado.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f0r1"><strong>¿Por qué me tengo que registrar?</strong></dt>
+					<dd>No está obligado a hacerlo, la decisión la toman los administradores y moderadores. En algunos casos necesitará registrarse para publicar temas y respuestas. Sin embargo, estar registrado le dará acceso a contenidos adicionales y/o ventajas que como usuario invitado no disfrutaría, como tener su imagen personalizada (avatar), mensajes privados, suscripción a grupos de usuarios, etc. Tan solo le tomará unos segundos. Es muy recomendable.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f0r2"><strong>¿Por qué mi sesión de usuario expira automáticamente?</strong></dt>
+					<dd>Si no activa la casilla <em>Entrar automáticamente</em> cuando ingresa al foro, sus datos se guardan en una cookie segura, que se elimina al salir de la página o al cabo de cierto tiempo. Esto previene que su cuenta pueda ser usada por otra persona. Para que el sistema le reconozca automáticamente solo marque la casilla al ingresar. No es recomendable si accede al foro desde un PC compartido, e.j. biblioteca, cyber-cafés, PC's de universidades, etc. Si no ve la casilla, significa que la administración del foro ha deshabilitado la opción.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f0r3"><strong>¿Cómo evito que mi nombre de usuario aparezca en las listas de usuarios identificados?</strong></dt>
+					<dd>Dentro del Panel de Control de Usuario, en "Preferencias de Foros", encontrará la opción <em>Ocultar mi estado de conexión</em>. Habilite la opción con <em>SI</em> y solamente será visto por administradores, moderadores y usted mismo. Será contabilizado como usuario oculto.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f0r4"><strong>¡Perdí mi contraseña!</strong></dt>
+					<dd>No se asuste, ¡calma! Si su contraseña no puede ser recuperada puede desactivarla o cambiarla. Visite la página de ingreso (login) y haga clic en <em>Olvidé mi contraseña</em>. Siga las instrucciones y estará identificado nuevamente en muy poco tiempo.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f0r5"><strong>Me he registrado ¡y no me puedo identificar!</strong></dt>
+					<dd>Primero, verifique su nombre de usuario y contraseña. Si todo está correcto, hay dos posibles razones. Si el Sistema de Protección Infantil (APPCO) está activado y cuando se registró eligió la opción <em>Soy menor de 13 años</em> entonces tendrá que seguir algunas instrucciones que se le darán para activar la cuenta. Algunos foros disponen que las cuentas deben ser activadas, ya sea por usted mismo o por La Administración, antes de que pueda identificarse; esta información se le brindará al finalizar el proceso de registro. Si se le envió un e-mail, siga las instrucciones. Si no recibió ningún e-mail, seguramente la dirección de correo electrónico que proporcionó no es correcta o tal vez haya sido capturada por un filtro anti-spam. Si está seguro de que la dirección de e-mail que proporcionó es correcta, envíe un mensaje a La Administración.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f0r6"><strong>Hace un tiempo me registré, ¡pero ahora no puedo conectarme!</strong></dt>
+					<dd>Es posible que la administración haya desactivado o borrado su cuenta por alguna razón. También, algunos foros periódicamente remueven sus usuarios que no publicaron mensajes por cierto periodo de tiempo para reducir el peso de la base de datos. Si es así, registrese de nuevo y participe de las discuciones.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f0r7"><strong>¿Qué es COPPA? (APPCO)</strong></dt>
+					<dd>COPPA, APPCO, o Acta de Privacidad y Protección de Niños menores de 13 años del año 1998, es una ley de los Estados Unidos, donde se solicita a los sitios de Internet, los cuales son potenciales recolectores de información, que el registro de niños sea escrito y ratificado con el consentimiento de los padres o con algún otro método de reconocimiento de guardia legal, que permita recolectar información personal identificable de un menor de edad.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f0r8"><strong>¿Por qué no puedo registrarme?</strong></dt>
+					<dd>Es posible que La Administración del sitio haya baneado su dirección IP o que el nombre de usuario con el que está intentando registrarse, esté deshabilitado. También puede estar deshabilitado el registro de nuevos usuarios. Póngase en contacto con La Administración del sitio.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f0r9"><strong>¿Cuál es la función de "Borrar todas las cookies del Sitio"?</strong></dt>
+					<dd>"Borrar todas las cookies del Sitio" borra las cookies creadas por phpBB, las cuales le mantienen autorizado para acceder a determinados recursos del foro y estar identificado al mismo. También proveen funciones como leer el seguimiento de la navegación del foro por el usuario si la administración ha habilitado la opción. Si está teniendo problemas con el ingreso o salida del foro, borrar las cookies seguramente ayudará.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				
+		</div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<div class="panel bg1">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="content">
+			<h2>Preferencias de usuario y configuraciones</h2>
+			
+				<dl class="faq">
+					<dt id="f1r0"><strong>¿Cómo se puede cambiar mi configuración?</strong></dt>
+					<dd>Si es un usuario registrado, todos sus datos y configuraciones están archivados en nuestra base de datos. Para modificarlos, visite el Panel de Control de Usuario; el enlace se encuentra en la parte superior de las páginas del foro. Este sistema le permitirá cambiar sus datos y preferencias.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f1r1"><strong>¡La hora en los foros no es correcta!</strong></dt>
+					<dd>Es posible que esté viendo la hora correspondiente a otra zona horaria. Si este es el caso, visite el Panel de Control de Usuario y defina su zona horaria de acuerdo a su ubicación, e.j. Londres, París, Nueva York, Sydney, etc. Recuerde que para cambiar la zona horaria, como las demás preferencias, debe estar registrado. Si no lo está, este es un buen momento para hacerlo.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f1r2"><strong>Cambié la zona horaria en mi perfil, ¡pero la hora sigue siendo incorrecto!</strong></dt>
+					<dd>Si está seguro de que de la zona horaria es correcta al igual que el horario de verano establecido, y la hora sigue siendo incorrecta, entonces la hora almacenada en el servidor es errónea. Por favor comuníquese con La Administración para corregir el problema.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f1r3"><strong>¡Mi idioma no está en la lista!</strong></dt>
+					<dd>Esto se puede deber a que la administración no ha instalado el paquete de su idioma para el foro o nadie ha creado una traducción. Pregúntele al administrador si puede instalar el paquete del idioma que necesita. Si el paquete no existe, siéntase libre de hacer una traducción. Puede encontrar más información en el sitio de phpBB (ver el enlace al final de la página).</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f1r4"><strong>¿Cómo se puede poner una imagen debajo de mi nombre de usuario?</strong></dt>
+					<dd>Hay dos imágenes que pueden aparecer debajo de su nombre de usuario cuando esté viendo los mensajes. Dependiendo de la plantilla que utilice el foro, la primera imagen está asociada a la posición (rank) del usuario, generalmente en forma de estrellas, bloques o puntos, indicando la cantidad de mensajes publicados por usted o su estatus dentro del foro. La segunda, usualmente una imagen más grande, es conocida como avatar y generalmente es única o personal para cada usuario. Es la administración quien decide si se pueden usar o no y en que tamaño y peso pueden ser publicadas. En caso de que no este disponible la opción de avatar, comuníquese con La Administración para que sea activada.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f1r5"><strong>¿Cómo se puede cambiar mi rango?</strong></dt>
+					<dd>Los rangos aparecen debajo del nombre de usuario e indican la cantidad de publicaciones realizadas por el usuario o la posición del mismo dentro del foro, e.j. moderadores y administradores. En general, no puede cambiar su rango directamente ya que está determinado por la administración. Por favor, no abuse de sus privilegios de publicación solo para incrementar su rango. La mayoría de los foros lo consideran "spam", no lo toleran,  y moderadores o administradores reducirán el número de publicaciones realizadas, llegando incluso a tomar medidas mas drásticas, como la expulsión del foro.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f1r6"><strong>Cuando hago clic sobre el enlace de e-mail de un usuario, ¡me pide que me registre!</strong></dt>
+					<dd>Solo usuarios registrados pueden enviar e-mail a otros usuarios a través del foro, si la administración habilita la opción. Esto es para prevenir el uso malicioso del sistema de e-mail por usuarios anónimos.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				
+		</div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<div class="panel bg2">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="content">
+			<h2>Publicación de mensajes</h2>
+			
+				<dl class="faq">
+					<dt id="f2r0"><strong>¿Cómo se puede publicar un mensaje en el foro?</strong></dt>
+					<dd>Para publicar un nuevo tema en el foro regístrate como miembro, haciendo clic en el enlace de registro, generalmente arriba de cada página. Seguramente necesite registrarse antes de poder publicar y responder. Abajo de cada foro encontrará una lista de acciones permitidas. Ejemplo: Puede publicar nuevos temas, Puede votar en las encuestas, etc.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f2r1"><strong>¿Cómo se puede editar o borrar un mensaje?</strong></dt>
+					<dd>A menos que sea administrador o moderador, solo puede borrar o editar sus propios mensajes. Para editarlos debe hacer clic en en botón <em>editar</em> (a veces esta opción solo es válida durante un cierto periodo de tiempo). Si alguien editase su tema, encontrará un pequeño texto indicando que ha sido modificado y las veces que lo ha sido. No aparece si fue un moderador o la administración quién lo editó, aunque la mayoría de las veces el editor deja su nombre de usuario y la causa de la edición. Los usuarios normales no podrán borrar sus temas después de que alguien haya respondido al mismo.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f2r2"><strong>¿Cómo se puede añadir una firma a mi mensaje?</strong></dt>
+					<dd>Para añadir una firma a sus mensajes debe crearla en el Panel de Control de Usuario. Una vez creada, active la opción <em>Añadir firma</em> cuando publique un mensaje. Puede asignar una firma por defecto a todos sus mensajes activando la casilla correcta en su perfil. Para dejar de añadirla en los mensajes, debe desactivar la opción <em>Añadir firma</em> dentro del perfil.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f2r3"><strong>¿Cómo creo una encuesta?</strong></dt>
+					<dd>Cuando inicia un nuevo tema o edita el primer mensaje del mismo, debe hacer clic en la etiqueta "Agregar Encuesta" debajo del formulario de publicación; si no la visualiza, significa que no posee los permisos apropiados para crear encuestas. Inserte un título y al menos dos opciones en el campo apropiado, asegurándose de que cada opción se encuentre en la correspondiente línea del formulario. También puede elegir el número de opciones que el usuario puede seleccionar en la etiqueta "Opciones por usuario", el tiempo límite en días para la encuesta (0 para duración infinita) y por último la opción de permitir a lo usuarios cambiar su votos.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f2r4"><strong>¿Por qué no se puede añadir más opciones a la encuesta?</strong></dt>
+					<dd>El límite para opciones de una encuesta está fijado por la administración. Si necesita añadir más opciones a la encuesta, comuníquese con La Administración.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f2r5"><strong>¿Cómo edito o borro una encuesta?</strong></dt>
+					<dd>Como en los mensajes, las encuestas solo pueden ser modificadas por su creador original, un moderador o la administración. Para editar una encuesta, hay que editar el primer mensaje del tema; este siempre esta asociado a la encuesta. Si nadie ha votado, los usuarios pueden borrar la encuesta o editar las opciones. Sin embargo, si algún miembro ha votado, solo moderadores o administradores pueden editar o borrar la encuesta. Esto evita que las encuestas sean cambiadas a mitad de la votación.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f2r6"><strong>¿Por qué no se puede acceder a algún foro?</strong></dt>
+					<dd>Algunos foros pueden estar limitados para ciertos usuarios o grupos y para visualizar, leer, publicar o llevar a cabo otra acción allí necesita una autorización especial. Comuníquese con un moderador o administrador del foro para que se le conceda el permiso adecuado.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f2r7"><strong>¿Por qué no se puede añadir archivos adjuntos?</strong></dt>
+					<dd>Los permisos para adjuntar archivos son individuales para cada foro, grupo, usuario y son concedidos por La Administración. Tal vez La Administración no permite adjuntar archivos en el foro en que se encuentra o solo ciertos grupos pueden hacerlo. Comuníquese con La Administración si no está seguro de por qué no puede adjuntar archivos.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f2r8"><strong>¿Por qué recibí una advertencia?</strong></dt>
+					<dd>Los administradores de cada foro tienen su propio conjunto de reglas para su sitio. Si ha quebrantado alguna regla puede recibir una advertencia. Por favor recuerde que esta es una decisión de La Administración del foro, y el phpBB Group no tiene nada que ver con las advertencias dadas en este sitio. Comuníquese con La Administración del foro si no está seguro de porqué fue advertido.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f2r9"><strong>¿Cómo se puede reportar un mensaje a un moderador?</strong></dt>
+					<dd>Si La Administración lo permite, debería ver un botón para reportar mensajes cerca del mismo. Haciendo clic sobre el botón, el foro le llevará y guiará a través de ciertos pasos necesarios para reportar el mensaje.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f2r10"><strong>¿Para qué sirve el botón "Guardar" en la publicación de temas?</strong></dt>
+					<dd>Esto le permitirá guardar borradores que serán completados y enviados más tarde. Para recargar un borrador guardado, visite el Panel de Control de Usuario.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f2r11"><strong>¿Por qué mis mensajes necesitan ser aprobados?</strong></dt>
+					<dd>La Administración del foro tal vez ha decidido que los mensajes publicados en el foro, en el que estas intentando publicar mensajes, necesiten ser revisados antes de aprobarlos. También es posible que La Administración le haya ubicado en un grupo de usuarios cuyos mensajes necesitan ser revisados antes de aprobarlos. Por favor comuníquese con el administrador para más información al respecto.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f2r12"><strong>¿Cómo hago para reactivar un tema?</strong></dt>
+					<dd>Puede hacerlo dándole clic al enlace que dice "Reactivar tema" cuando esté viendo el mismo, puede "reactivar" el tema al principio de la primera página. Sin embargo, si no lo visualiza, entonces el tema reactivado ha sido deshabilitado o el tiempo para poder reactivarlo no ha sido alcanzado aún. También es posible reactivar un tema respondiendo al mismo, sin embargo, lea las reglas del foro antes de hacerlo.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				
+		</div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<div class="panel bg1">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="content">
+			<h2>Formatos y tipos de temas</h2>
+			
+				<dl class="faq">
+					<dt id="f3r0"><strong>¿Qué es el código BBCode?</strong></dt>
+					<dd>BBcode es una implementación especial de HTML, ofrece un gran control de formato de los objetos particulares de las publicaciones. El uso de BBCode debe ser habilitado por la administración, pero también puede ser deshabilitado del formulario de publicación de mensajes. BBCode asimismo es similar en estilo al HTML, pero las etiquetas se encuentran encerrados entre corchetes [ y ] en lugar de < y >. Para más información, lea el manual de BBCode. El enlace aparece cada vez que va a publicar un mensaje.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f3r1"><strong>¿Puedo usar HTML?</strong></dt>
+					<dd>No. No es posible publicar en HTML. Muchos de los formatos y acciones que se pueden ejecutar utilizando HTML pueden ser aplicados utilizando BBCodes.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f3r2"><strong>¿Qué son los emoticonos?</strong></dt>
+					<dd>Los emoticonos son pequeñas imágenes que pueden ser utilizadas para expresar un sentimiento con un pequeño código, e.j. :) denota felicidad, mientras que :( denota tristeza. La lista completa de emoticones puede verse en el formulario de publicación. Trate de no abusar del uso de emoticonos, pues pueden hacer que un mensaje se vuelva muy difícil de leer y un moderador borre el tema o los emoticones del mensaje. La administración puede fijar un límite para el número de emoticones a utilizar en un mensaje.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f3r3"><strong>¿Puedo publicar imagenes?</strong></dt>
+					<dd>Sí, las imágenes se pueden mostrar en sus mensajes. Si la administración permite adjuntar archivos, puede subir la imagen directamente al foro. De otra manera, debe guardar primero su foto en un servidor de acceso público, e.j. http://www.ejemplo.com/mi-imagen.gif. No puede publicar imágenes que se encuentren en su PC (a menos que sea un servidor de acceso público) ni tampoco las que se encuentren guardadas bajo mecanismos de autenticación, e.j. hotmail o yahoo correo, sitios protegidos por contraseñas, etc. Para exhibir imágenes utilice el BBCode con la etiqueta [img].</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f3r4"><strong>¿Qué son los anuncios globales?</strong></dt>
+					<dd>Los anuncios globales contienen información importante y debería leerlos cada vez que sea posible. Éstos aparecerán al principio de cada foro y en el Panel de Control de Usuario. Los permisos para anuncios globales son otorgados por La Administración.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f3r5"><strong>¿Qué son los anuncios?</strong></dt>
+					<dd>Los anuncios muchas veces contienen información importante sobre el foro que se encuentra leyendo y debería leerlos cada vez que sea posible. Los anuncios aparecen al principio de cada página en el foro donde se publicaron. Como en los anuncios globales, los permisos para anuncios son otorgados por La Administración.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f3r6"><strong>¿Qué son los temas fijos?</strong></dt>
+					<dd>Los temas fijos aparecen en el foro por debajo de los anuncios y solo en la primer página. Muchas veces son importantes por lo que debería leerlos cada vez que sea posible. Como en los anuncios globales y anuncios, los permisos para fijar un tema son otorgados por La Administración.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f3r7"><strong>¿Qué son los temas cerrados?</strong></dt>
+					<dd>Los temas cerrados son temas donde los usuarios ya no pueden responder y las encuestas allí contenidas terminaron automáticamente. Los temas pueden ser cerrados por muchas razones. Esta decisión es tomada por La Administración o un moderador. Tal vez pueda cerrar sus propios temas dependiendo de los permisos que le hayan concedido los administradores.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f3r8"><strong>¿Qué son los iconos para los temas?</strong></dt>
+					<dd>Son imágenes elegidas por el autor del tema para indicar el contenido del mismo. La posibilidad de usar iconos en los mensajes depende de los permisos otorgados por La Administración.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				
+		</div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<div class="panel bg2">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="content">
+			<h2>Niveles de usuario y grupos</h2>
+			
+				<dl class="faq">
+					<dt id="f4r0"><strong>¿Qué son los Administradores?</strong></dt>
+					<dd>Los Administradores son los usuarios asignados con el mayor nivel de control sobre el foro entero. Estos usuarios pueden controlar todas las acciones y configuraciones del foro, incluyendo configuraciones de permisos, baneo de usuarios, creación de grupos usuarios y moderadores, etc. Dependen del fundador del foro y de los permisos que éste les ha dado. Ellos también tienen todas las capacidades de moderación en cada uno de los foros, dependiendo de las configuraciones realizadas por el fundador del sitio.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f4r1"><strong>¿Qué son los Moderadores?</strong></dt>
+					<dd>Los Moderadores son individuos (o grupos de individuos) que cuidan el foro día a día. Tienen la autoridad para editar o borrar mensajes, cerrarlos, abrirlos, moverlos, borrar y separar temas en el foro que moderan. Generalmente, los moderadores están presentes para evitar que los usuarios se salgan del tema tratado o publiquen spam y/o contenido malicioso.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f4r2"><strong>¿Qué son los Grupos de Usuarios?</strong></dt>
+					<dd>Los Grupos de Usuarios son conjuntos de usuarios que dividen a la comunidad en sectores manejables con los cuales puede trabajar los administradores del foro. Cada usuario puede pertenecer a varios grupos y cada grupo puede tener diferentes permisos. Esto ayuda, a los administradores, a cambiar los permisos de muchos usuarios a la vez, tales como los permisos de moderador, o garantizar el acceso a foros privados a los usuarios.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f4r3"><strong>¿Donde están los Grupos de Usuarios y como me puedo unir a ellos?</strong></dt>
+					<dd>Puede ver todos los Grupos de usuarios a través del enlace "Grupos de Usuarios". Si desea unirse a algún grupo, puede proceder haciendo clic en el botón apropiado. No todos los grupos tienen libre acceso. Sin embargo, algunos requieren aprobación para poder unirse, otros están cerrados y algunos son ocultos. Si el grupo se encuentra abierto, puede unirse haciendo clic en el botón correspondiente. Si el grupo requiere de aprobación para unirse, puede solicitar unirse haciendo clic en el botón correspondiente. El responsable del grupo deberá aprobar su solicitud y seguramente le preguntará por qué desea hacerlo. Por favor no moleste continuamente al Responsable de Grupo si rechaza su solicitud; seguramente tenga sus razones.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f4r4"><strong>¿Cómo me convierto en Responsable del Grupo?</strong></dt>
+					<dd>El Responsable de un grupo es asignado por La Administración al crear el grupo. Si está interesado en crear un grupo de usuarios, contacte con La Administración.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f4r5"><strong>¿Por qué algunos Grupos de Usuarios aparecen en diferentes colores?</strong></dt>
+					<dd>La Administración del foro tiene la posibilidad de asignar un color a los usuarios de un grupo para hacer más fácil su identificación.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f4r6"><strong>¿Qué es un "Grupo de Usuarios predeterminado"?</strong></dt>
+					<dd>Si es miembro de más de un grupo por defecto, se usará el "predeterminado" para determinar qué color y rango se mostrará por defecto en su perfil. La Administración debe darle permisos para cambiar su grupo por defecto mediante su Panel de Control de Usuario.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f4r7"><strong>¿Qué es el enlace "El equipo"?</strong></dt>
+					<dd>Esta página le provee de la lista completa de los usuarios del grupo, incluyendo los administradores, moderadores y otros detalles, como los foros que se encarga de moderar cada uno.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				
+		</div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<div class="panel bg1">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="content">
+			<h2>Mensajería privada</h2>
+			
+				<dl class="faq">
+					<dt id="f5r0"><strong>¡No puedo enviar un mensaje privado!</strong></dt>
+					<dd>Hay tres razones posibles; no está registrado y/o identificado, La Administración del foro ha deshabilitado la opción de mensajes privados para todos los usuarios, o bien La Administración ha deshabilitado para usted, o su grupo de usuarios, la opción de enviar mensajes. Comuníquese con La Administración para más información.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f5r1"><strong>¡Recibo mensajes privados no deseados!</strong></dt>
+					<dd>Si está recibiendo mensajes maliciosos u ofensivos de un usuario en particular, puede bloquearlo para que no le pueda enviar mensajes, dentro de las opciones del Panel de Control de Usuario o comunicarlo a La Administración.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f5r2"><strong>¡Recibí spam o correos maliciosos de alguien en este foro!</strong></dt>
+					<dd>Lamentamos oír eso. El formulario de e-mail incluye identificadores para controlar quién ha enviado tales mensajes, por lo tanto, puede contactar con La Administración y hacerles llegar una copia completa del mensaje que recibió. Es muy importante que incluya la cabecera, ya que contiene los datos del usuario que envió el e-mail. La Administración tomará medidas.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				
+		</div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<div class="panel bg2">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="content">
+			<h2>Amigos e Ignorados</h2>
+			
+				<dl class="faq">
+					<dt id="f6r0"><strong>¿Qué es la lista de Mis Amigos e Ignorados?</strong></dt>
+					<dd>Puede utilizar la lista para organizar otros usuarios del foro. Los usuarios añadidos a su lista de Amigos podrán verse en en Panel de Control de Usuario para un rápido acceso a ver si están identificados y poder así enviarles un mensaje privado. Según la plantilla que utilice el foro, los mensajes de estos usuarios pueden visualizarse resaltados. Si añade un usuario a su lista de Ignorados, todos sus mensajes quedarán ocultos.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f6r1"><strong>¿Cómo se puede añadir o borrar usuarios de mi lista de Amigos e Ignorados?</strong></dt>
+					<dd>Puede añadir usuarios a su lista de dos maneras. En cada perfil de usuario hay un enlace para añadirlo a su lista de Amigos y/o Ignorados. También puede hacerlo desde el Panel de Control de Usuario directamente, introduciendo su nombre. Puede eliminar usuarios de su lista desde esta misma página.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				
+		</div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<div class="panel bg1">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="content">
+			<h2>Búsqueda en los foros</h2>
+			
+				<dl class="faq">
+					<dt id="f7r0"><strong>¿Cómo se puede buscar en uno o varios foros?</strong></dt>
+					<dd>Introduciendo un término de búsqueda en el campo correspondiente del buscador del índice, foro o en los temas. Puede acceder a búsquedas avanzadas haciendo clic en el enlace "Búsqueda Avanzada" que está disponible en todas las páginas del foro. La manera de acceder a la búsqueda depende de la plantilla utilizada.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f7r1"><strong>¿Por qué mi búsqueda me devuelve ningún resultado?</strong></dt>
+					<dd>Probablemente su búsqueda fue muy general e incluye muchos términos comunes que no son indexados por phpBB3. Sea más específico y utilice las opciones disponibles en la búsqueda avanzada.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f7r2"><strong>¿Por qué mi búsqueda me devuelve una página en blanco?</strong></dt>
+					<dd>La búsqueda devolvió demasiados resultados para ser procesados por el servidor. Utilice "Búsqueda Avanzada" y sea más específico en los términos y foros de su búsqueda.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f7r3"><strong>¿Cómo busco usuarios?</strong></dt>
+					<dd>Pulse en el enlace "Usuarios" y haga clic en el enlace "Buscar un usuario".</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f7r4"><strong>¿Como se puede encontrar mis propios mensajes y temas?</strong></dt>
+					<dd>Puede encontrar sus mensajes haciendo clic en  "Mostrar sus mensajes" en el Panel de Control de Usuario o a través de su propio perfil. Para buscar sus temas, utilice la página de búsqueda avanzada y complete las opciones apropiadas.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				
+		</div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<div class="panel bg2">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="content">
+			<h2>Suscripción y Añadido de temas a Favoritos</h2>
+			
+				<dl class="faq">
+					<dt id="f8r0"><strong>¿Cuál es la diferencia entre añadir como Favorito y suscribirme a un tema?</strong></dt>
+					<dd>Añadir un tema como Favorito en phpBB3 es como Añadir un sitio como Favorito en su navegador. No se le avisa cuando hay una actualización o respuesta, pero puede seguir visitando el tema para ver las modificaciones más tarde. Al suscribirse, a diferencia de añadir a Favoritos, se le avisará cuando haya actualizaciones en los temas y foros que haya seleccionado.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f8r1"><strong>¿Cómo me suscribo a un foro o tema específico?</strong></dt>
+					<dd>Para suscribirse a un foro en especial, debe hacer clic en el enlace "Suscribir Foro". Para suscribirse a un tema, debe activar la casilla "Suscribir" cuando envía una respuesta al mismo, o hacer clic en el enlace "Suscribir tema".</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f8r2"><strong>¿Cómo borro mis suscripciones?</strong></dt>
+					<dd>Para eliminar sus suscripciones, debe entrar en el Panel de Control de Usuario y hacer clic en la opción "Organizar suscripciones".</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				
+		</div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<div class="panel bg1">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="content">
+			<h2>Archivos Adjuntos</h2>
+			
+				<dl class="faq">
+					<dt id="f9r0"><strong>¿Qué archivos adjuntos son permitidos en este foro?</strong></dt>
+					<dd>Cada foro puede permitir o no ciertos tipos de archivos adjuntos. Si no está seguro de que tipos de archivos se pueden cargar, comuníquese con La Administración para obtener más información.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f9r1"><strong>¿Cómo encuentro todos mis archivos adjuntos?</strong></dt>
+					<dd>Para encontrar la lista de sus archivos adjuntos, debe entrar en el Panel de Control de Usuario y hacer clic en la opción "Organizar adjuntos".</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				
+		</div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<div class="panel bg2">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<div class="content">
+			<h2>Acerca de phpBB3</h2>
+			
+				<dl class="faq">
+					<dt id="f10r0"><strong>¿Quién programó este foro?</strong></dt>
+					<dd>Esta aplicación (en su forma original) es desarrollada, publicada y contiene derechos de autor pertenecientes a <a href="https://www.phpbb.com/">phpBB Group</a>. Está hecho bajo la GNU (Licencia Pública General) y es de libre distribución. Visite el enlace para más detalles.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f10r1"><strong>¿Por qué este foro no tiene tal cosa?</strong></dt>
+					<dd>Este foro fue escrito y licenciado a través de phpBB Group. Si usted cree que se debe añadir alguna característica por favor visite <a href="https://www.phpbb.com/ideas/">Centro de phpBB Ideas</a> (en Inglés), donde se puede votar en ideas existentes o sugerir nuevas características.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				<hr class="dashed" />
+				<dl class="faq">
+					<dt id="f10r2"><strong>¿Con quién se puede contactar acerca de abusos o usos ilegales relacionados con este foro?</strong></dt>
+					<dd>Cada uno de los administradores que figuran en la lista del grupo donde dice "El Equipo" es un contacto apropiado para enviar sus quejas. Si así no obtiene respuesta debería tratar de contactar con el dueño del dominio (efectúe una <a href="http://www.google.com/search?q=whois">búsqueda whois</a>) o, si este foro tiene correo sobre un dominio gratuito (Yahoo!, gmail.com, hotmail.com, etc.), al departamento o administración de abusos de ese servicio. Por favor, tenga en cuenta que el Grupo phpBB <strong>carece de cualquier tipo de control</strong> y no puede ser de ninguna manera responsable sobre cómo, dónde o por quién es usado este sistema de foros. No tiene ningún sentido contactar con el Grupo phpBB en relación a asuntos legales (difamación, responsabilidad, deformación de comentarios, etc.) que no sean con respecto al sitio phpbb.com o la discreción misma del software phpBB. Si envia un correo al Grupo phpBB <strong>respecto del uso de terceras partes</strong> de este software esté dispuesto a recibir una respuesta cortante o directamente no recibir respuesta.</dd>
+					<dd><a href="#faqlinks" class="top2">Arriba</a></dd>
+				</dl>
+				
+		</div>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<form method="post" id="jumpbox" action="./viewforum.php?sid=37e3a0e64112ef1d251d814e941bb7e2" onsubmit="if(this.f.value == -1){return false;}">
+
+	
+		<fieldset class="jumpbox">
+	
+			<label for="f" accesskey="j">Saltar a:</label>
+			<select name="f" id="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+			
+				<option value="-1">Seleccione un Foro</option>
+			<option value="-1">------------------</option>
+				<option value="1">Mi primera categoría</option>
+			
+				<option value="2">&nbsp; &nbsp;Foro de Prueba 1</option>
+			
+			</select>
+			<input type="submit" value="Ir" class="button2" />
+		</fieldset>
+	</form>
+
+</div>
+
+<div id="page-footer">
+
+	<div class="navbar">
+		<div class="inner"><span class="corners-top"><span></span></span>
+
+		<ul class="linklist">
+			<li class="icon-home"><a href="./index.php?sid=37e3a0e64112ef1d251d814e941bb7e2" accesskey="h">Índice general</a></li>
+				
+			<li class="rightside"><a href="./memberlist.php?mode=leaders&amp;sid=37e3a0e64112ef1d251d814e941bb7e2">El Equipo</a> &bull; <a href="./ucp.php?mode=delete_cookies&amp;sid=37e3a0e64112ef1d251d814e941bb7e2">Borrar todas las cookies del Sitio</a> &bull; Todos los horarios son UTC + 1 hora </li>
+		</ul>
+
+		<span class="corners-bottom"><span></span></span></div>
+	</div>
+
+	<div class="copyright">Desarrollado por <a href="https://www.phpbb.com/">phpBB</a>&reg; Forum Software &copy; phpBB Group
+		<br />Traducción al español por <a href="http://www.mjinmo.com/">Huan Manwë</a> para <a href="http://www.phpbb-es.com/">phpBB España</a>
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" name="bottom" accesskey="z"></a>
+	
+</div>
+
+</body>
+</html>

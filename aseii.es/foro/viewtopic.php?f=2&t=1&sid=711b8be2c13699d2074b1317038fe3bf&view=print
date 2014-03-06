@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="es" xml:lang="es">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-language" content="es" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="robots" content="noindex" />
+
+<title>Technium &bull; Ver Tema - Bienvenido a phpBB3</title>
+
+<link href="./styles/prosilver/theme/print.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="phpbb">
+<div id="wrap">
+	<a id="top" name="top" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>Technium</h1>
+		<p><br /><a href="http://aseii.es/foro/">http://aseii.es/foro/</a></p>
+
+		<h2>Bienvenido a phpBB3</h2>
+		<p><a href="http://aseii.es/foro/viewtopic.php?f=2&amp;t=1">http://aseii.es/foro/viewtopic.php?f=2&amp;t=1</a></p>
+	</div>
+
+	<div id="page-body">
+		<div class="page-number">Página <strong>1</strong> de <strong>1</strong></div>
+		
+			<div class="post">
+				<h3>Bienvenido a phpBB3</h3>
+				<div class="date"><img src="./styles/prosilver/imageset/icon_post_target.gif" width="11" height="9" alt="Nota" title="Nota" />Publicado: <strong>06 Mar 2014 22:40</strong></div>
+				<div class="author">por <strong>administrador</strong></div>
+				<div class="content">Este es un mensaje de ejemplo en su instalación phpBB3. puede borrar este mensaje, este hilo e incluso este foro si quiere, ¡ya que todo parece estar funcionando!<br />Pero es buena idea usar la categoría y el foro creados por defecto para copiar los permisos en los futuros foros a crear. Le simplificará la tarea.<br /> También puede enviar sus impresiones a <a href="http://www.phpbb-es.com">phpBB España</a> sobre esta traducción de phpBB. Ayudará a mejorar el trabajo. ¡Gracias!</div>
+			</div>
+			<hr />
+		
+	</div>
+
+	<div id="page-footer">
+		<div class="page-number">Todos los horarios son UTC + 1 hora <br />Página <strong>1</strong> de <strong>1</strong></div>
+		<div class="copyright">Powered by phpBB&reg; Forum Software &copy; phpBB Group<br />https://www.phpbb.com/</div>
+	</div>
+</div>
+
+</body>
+</html>
