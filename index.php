@@ -434,7 +434,7 @@
    </div>
 
 
-
+<!--
    <div class="row">
       <div class="three mobile-two columns">
          <figure class="project" id="project01">
@@ -610,7 +610,7 @@
    </div>
 </div>
 
-
+-->
 
 
 </div>
