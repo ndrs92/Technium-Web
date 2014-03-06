@@ -34,6 +34,7 @@
             <a class="simple-menu top" style="float:right !important;" href="#sidr"><span class="ico-round white"><i class="icon-reorder"></i></span></a>
             <div class="text-right">
                <ul class="nav-list" id="nav-list">
+                  <li><a href="foro/">Foro</a></li>
                   <li><a onclick="$('#pro-services').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Eventos</a></li>
                   <li><a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">Torneos</a></li>
                   <li><a href="https://maps.google.es/maps?q=42.342909,-7.851457&num=1&t=h&z=19" target="_blank">Mapa</a></li>
@@ -46,6 +47,7 @@
                <div class="sidr-gutter"></div>
                <ul>
                   <li>&nbsp;</li>
+                  <li><a href="foro/">Foro</a></li>
                   <li><a onclick="$('#pro-services').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> Eventos</a></li>
                   <li><a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><span class="badge"></i></span> Torneos</a></li>
                   <li><a href="https://maps.google.es/maps?q=42.342909,-7.851457&num=1&t=h&z=19"  target="_blank"><span class="badge"></i></span> Mapa</a></li>
