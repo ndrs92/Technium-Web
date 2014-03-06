@@ -194,6 +194,7 @@
                   <a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><li>&nbsp; League Of Legends</li></a>
                   <a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><li>&nbsp; Counter Strike: Global Offensive</li></a>
                   <a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><li>&nbsp; FIFA 2014</li></a>
+                  <a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><li>&nbsp; StarCraft II</li></a>
                </ul>
             </div>
             <!-- <a class="button blank lined dark large expand">Detalles</a> -->
@@ -517,7 +518,7 @@
                   <article class="">
                      <img src="images/sc2header.png" alt="" style="margin: auto 230px;"/>
                      <hr><div style="text-align:left;">
-                     
+
                      <h1 style="text-align:center;"> Formato de Torneo </h1>
                      <h5 style="color:black;"><p>
                         1. Eliminatoria directa.<br/>
@@ -556,7 +557,7 @@
 
                         12. No se tolerara lenguaje obsceno.<br/>
                      </p>       </h5>
-                     
+
                   </article>
                </div>
             </div>
