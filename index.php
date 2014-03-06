@@ -147,7 +147,7 @@
 };
 </script>
 <h1 id="party">Ya queda menos: <h1 id="countbox1"></h1></h1><br/>
-<h1 id="abierto">¡Inscripciones Abiertas! Precio de entrada al recinto: 15€</h1><br/>
+<h1 id="abierto">¡Inscripciones Abiertas! Precio de entrada al recinto durante 4 días: <h1 style="color:black;">15€</h1></h1><br/>
 <h1 id="party">Las inscripciones cierran en: <h1 id="countbox2"></h1></h1>
 </div>
 </div>
