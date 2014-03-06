@@ -2,22 +2,22 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="es"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8" />
-  <!-- Cambia el viewport dependiendo del dispositivo que se esté usando -->
-  <meta name="viewport" content="width=device-width" />
+ <meta charset="utf-8" />
+ <!-- Cambia el viewport dependiendo del dispositivo que se esté usando -->
+ <meta name="viewport" content="width=device-width" />
 
-  <title>10 a 13 de Abril - Technium 2014</title>
+ <title>10 a 13 de Abril - Technium 2014</title>
 
-  <!-- CSS incluídos (Comprimido) -->
-  <link rel="stylesheet" href="stylesheets/foundation.css">
-  <link rel="stylesheet" href="stylesheets/design.css">
-  <link rel="icon" type="image/png" href="/favico.ico">
-  <script src="javascripts/jquery.js"></script>
-  <script src="javascripts/jquery.scrollzip.js"></script>
-  <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
-  <script src="javascripts/gmap3.js"></script>
-  <script src="javascripts/modernizr.foundation.js"></script>
-  <script src="javascripts/load.js"></script>
+ <!-- CSS incluídos (Comprimido) -->
+ <link rel="stylesheet" href="stylesheets/foundation.css">
+ <link rel="stylesheet" href="stylesheets/design.css">
+ <link rel="icon" type="image/png" href="/favico.ico">
+ <script src="javascripts/jquery.js"></script>
+ <script src="javascripts/jquery.scrollzip.js"></script>
+ <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
+ <script src="javascripts/gmap3.js"></script>
+ <script src="javascripts/modernizr.foundation.js"></script>
+ <script src="javascripts/load.js"></script>
 
 
 </head>
@@ -102,7 +102,7 @@
 <section class="hero-base">
    <div class="row ">
       <div class="twelve columns text-center">
-        <script type="text/javascript">
+       <script type="text/javascript">
            //http://www.ricocheting.com/code/javascript/html-generator/countdown-timer
            dateFuture1 = new Date(2014,3,10,18,1,1);
            dateFuture2 = new Date(2014,3,3,18,1,1);
@@ -488,7 +488,34 @@
                      <h3>Counter Strike: Global Offensive</h3>
                   </header>
                   <article class="">
-                     <h1> Aún en desarrollo. Disculpad las molestias.</h1>
+                     <img src="images/csheader.png" alt="" style="margin: auto 230px;"/>
+                     <hr><div style="text-align:left;">
+
+                     <h1 style="text-align:center;"> Formato de Torneo </h1>
+                     <h5 style="color:black;"><p>
+                        1. Eliminatoria directa.<br/>
+                        2. El número máximo de equipos inscritos serán 16.<br/>
+                        3. El número mínimo para que se celebre el torneo será de 5 equipos.<br/>
+                        4. Las partidas se jugarán en un servidor lan..<br/>
+                        5. El map pool serán los siguientes: de_dust2, de_inferno, de_train, de_nuke,
+                        de_season.  Los mapas se irán baneando hasta acordar 1.<br/>
+                        6. Las partidas no pueden contar con ningún espectador ni ningún árbitro, tan solo los
+                        jugadores que tienen que jugar esa ronda. (Salvo si se decide stremear los partidos en
+                        el recinto,caso en el que podrá entrar el organizador para retransmitirlo).<br/>
+                        7. Se habilitara un correo para el envío de capturas, en las que el capitán del equipo
+                        ganador será el responsable de enviar la misma. Por otra parte será obligatorio el uso
+                        de demos durante el partido.<br/>
+                        8. En caso de tener algún problema técnico, se podrá pausar, notificándolo antes al
+                        adversario y durante un tiempo máximo de 5 minutos.
+                        9. Las rondas se jugarán a Bo1 , salvo semifinal y final, que se jugara a Bo3. Cada partido
+                        será a MR15, esto quiere decir que cada 15 rondas se cambia de equipo, y el equipo que
+                        llegue a 16 rondas será el ganador.  EJ: ( 16­14, 16­2, 12­16 etc).<br/>
+                        10. En caso de empate habrá overtime con MR9 y 8000$ de inicio en el mismo mapa que
+                        se dio el empate.<br/>
+                        11. Los brackets se publicarán en el momento en el que se cierren inscripciones.<br/>
+                        12. No se tolerará lenguaje obsceno.<br/>
+                     </p>       </h5>
+
                   </article>
                </div>
             </div>
@@ -601,7 +628,7 @@
                               2- El torneo tendrá un límite de 64 participantes, con enfrentamientos de eliminación directa uno contra uno, quedando de la siguiente manera:<br/><br/>
                            </p>
                            <div style="text-align:center;">
-                             <p>
+                            <p>
                               Primera ronda: 64 jugadores<br/>
                               Segunda ronda: 32 jugadores<br/>
                               Octavos de final: 16 jugadores<br/>
@@ -640,20 +667,20 @@
                            <h3 style="color:black;">Configuración de los partidos</h3>
                         </p>
                         <p>
-                        Duración cada parte: 6 minutos ( partido normal, 9 para la final )<br/>
-                        Dificultad: Leyenda<br/>
-                        Árbitro: Aleatorio<br/>
-                        Momento del día: Aleatorio<br/>
-                        Clima: Despejado<br/>
-                        Desgaste del campo: Aleatorio<br/>
-                        Velocidad: Normal<br/>
-                        Lesiones: Si<br/>
-                        Fueras de juego: Si<br/>
-                        Tarjetas: Si<br/>
-                        Número de Sustituciones: 3<br/>
-                        Camara: Televisión<br/>
-                        Manos: Si, salvo penalti.<br/>
-                        Parametros Usuarios: predeterminados<br/>
+                           Duración cada parte: 6 minutos ( partido normal, 9 para la final )<br/>
+                           Dificultad: Leyenda<br/>
+                           Árbitro: Aleatorio<br/>
+                           Momento del día: Aleatorio<br/>
+                           Clima: Despejado<br/>
+                           Desgaste del campo: Aleatorio<br/>
+                           Velocidad: Normal<br/>
+                           Lesiones: Si<br/>
+                           Fueras de juego: Si<br/>
+                           Tarjetas: Si<br/>
+                           Número de Sustituciones: 3<br/>
+                           Camara: Televisión<br/>
+                           Manos: Si, salvo penalti.<br/>
+                           Parametros Usuarios: predeterminados<br/>
 
                         </p>
                      </h5>
