@@ -50,7 +50,7 @@ function mostrar(){
 	if($result){
 		echo '<form method="post" action="login_success.php">';
 
-		echo '<table style="width:1000px;" border="1">';
+		echo '<table style="width:1500px;" border="1">';
 		echo '<tr>';
   		echo '<th>ID</th>';
   		echo '<th>Nombre</th>'; 
@@ -71,7 +71,7 @@ function mostrar(){
 	        echo "<td>".$row["nick"]."</td>";
 	        echo "<td>".$row["dni"]."</td>";
 	        echo "<td>".$row["correo"]."</td>";
-	        echo "<td>".$row["equipo"]."</td>";
+	        echo "<td style='width:600px;'' >".$row["equipo"]."</td>";
 	        echo "<td>".$row["telefono"]."</td>";
 	        echo "<td>".$row["fecha"]."</td>";
 	        if($row["admitido"]){
