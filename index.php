@@ -193,7 +193,7 @@
                <ul class="icocheck">
                   <a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><li>&nbsp; League Of Legends</li></a>
                   <a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><li>&nbsp; Counter Strike: Global Offensive</li></a>
-                  
+                  <a onclick="$('#work').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><li>&nbsp; FIFA 2014</li></a>
                </ul>
             </div>
             <!-- <a class="button blank lined dark large expand">Detalles</a> -->
@@ -434,7 +434,7 @@
    </div>
 
 
-<!--
+
    <div class="row">
       <div class="three mobile-two columns">
          <figure class="project" id="project01">
@@ -456,153 +456,178 @@
                      <h3>League Of Legends</h3>
                   </header>
                   <article class="">
-                     <div class="row collapse">
-                        <div class="five columns p20">
-                           <img src="images/html5.png" alt="" />
-                           <hr>
-                           <div class="row collapse mt20">
-                              <div class="six mobile-two columns">
-                                 <ul class="no-bullet">
-                                    <li><i class="icon-angle-right"></i> Ya :</li>
-                                    <li><i class="icon-angle-right"></i> Veré :</li>
-                                    <li><i class="icon-angle-right"></i> Que :</li>
-                                    <li><i class="icon-angle-right"></i> Pongo :</li>
-                                    <li><i class="icon-angle-right"></i> Por :</li>
-                                    <li><i class="icon-angle-right"></i> Aquí :</li>
-                                    <li><i class="icon-angle-right"></i> Coleguilla :</li>
-                                    <li><i class="icon-angle-right"></i> Chorbo :</li>
-                                 </ul>
-                              </div>
-                              <div class="six mobile-two columns">
-                                 <ul class="no-bullet">
-                                    <li>test</li>
-                                    <li>test</li>
-                                    <li>test</li>
-                                    <li>test</li>
-                                    <li>test</li>
-                                    <li>test</li>
-                                    <li>test</li>
-                                    <li>test</li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <hr>
-                           <ul class="tags">
-                              <li><i class="icon-tags"></i> Tags : </li>
-                              <li><a href="#">Ya</a></li>
-                              <li><a href="#">veremos</a></li>
-                              <li><a href="#">que</a></li>
-                              <li><a href="#">uso</a></li>
-                              <li><a href="#">tienen</a></li>
-                           </ul>
-                           <hr>
-                           <div class="text-center"><a class="button expand">Botonaco</a></div>
-                        </div>
-                        <div class="seven columns text-center p20">
-                           <div class="cycle-slideshow animate"
-                           data-cycle-fx="scrollHorz"
-                           data-cycle-pause-on-hover="true"
-                           data-cycle-speed="1000"
-                           data-cycle-timeout="2000"
-                           data-cycle-prev=".prev" 
-                           data-cycle-next=".next" 
-                           data-cycle-easing="easeInExpo"
-                           >
-                           <a class="prev"><img height=64px width=64px src="images/arrow_left.png" /></a>
-                           <a class="next"><img height=64px width=64px src="images/arrow_right.png" /></a>
-                           <img src="images/feat-lrg-01.jpg" alt="" />
-                           <img src="images/feat-lrg-02.jpg" alt="" />
-                           <img src="images/feat-lrg-03.jpg" alt="" />
-                        </div>
-                     </div>
-                  </div>
-               </article>
+                     <h1> Aún en desarrollo. Disculpad las molestias.</h1>
+                  </article>
+               </div>
             </div>
          </div>
       </div>
-   </div>
 
 
 
-   <div class="three mobile-two columns">
-      <figure class="project" id="project02">
-         <div class="thumb">
-            <a class="open-project" data-project="02" href="#project02"><img src="images/feat-02.jpg" alt="" />
+      <div class="three mobile-two columns">
+         <figure class="project" id="project02">
+            <div class="thumb">
+               <a class="open-project" data-project="02" href="#project02"><img src="images/csgo500.png" alt="" />
 
-            </div>
-            <figcaption>
-               <h3>Counter Strike: Global Offensive</h3>
-               <p>Technium 2014</p>
-            </figcaption>
-         </a>
-      </figure>
-      <div class="project-window" id="showcase02">
-         <div class="row collapse content">
-            <div class="twelve columns">
-               <header>
-                  <a class="close-project-window" href="#work" title="close"><i><img src="images/close.png" /></i></a>
+               </div>
+               <figcaption>
                   <h3>Counter Strike: Global Offensive</h3>
-               </header>
-               <article class="">
-                  <div class="row collapse">
-                     <div class="five columns p20">
-                        <img src="images/html5.png" alt="" />
-                        <hr>
-                        <div class="row collapse mt20">
-                           <div class="six mobile-two columns">
-                              <ul class="no-bullet">
-                                 <li><i class="icon-angle-right"></i> Ya :</li>
-                                 <li><i class="icon-angle-right"></i> Veré :</li>
-                                 <li><i class="icon-angle-right"></i> Que :</li>
-                                 <li><i class="icon-angle-right"></i> Pongo :</li>
-                                 <li><i class="icon-angle-right"></i> Por :</li>
-                                 <li><i class="icon-angle-right"></i> Aquí :</li>
-                                 <li><i class="icon-angle-right"></i> Coleguilla :</li>
-                                 <li><i class="icon-angle-right"></i> Chorbo :</li>
-                              </ul>
-                           </div>
-                           <div class="six mobile-two columns">
-                              <ul class="no-bullet">
-                                 <li>test</li>
-                                 <li>test</li>
-                                 <li>test</li>
-                                 <li>test</li>
-                                 <li>test</li>
-                                 <li>test</li>
-                                 <li>test</li>
-                                 <li>test</li>
-                              </ul>
-                           </div>
+                  <p>Technium 2014</p>
+               </figcaption>
+            </a>
+         </figure>
+         <div class="project-window" id="showcase02">
+            <div class="row collapse content">
+               <div class="twelve columns">
+                  <header>
+                     <a class="close-project-window" href="#work" title="close"><i><img src="images/close.png" /></i></a>
+                     <h3>Counter Strike: Global Offensive</h3>
+                  </header>
+                  <article class="">
+                     <h1> Aún en desarrollo. Disculpad las molestias.</h1>
+                  </article>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+
+
+      <div class="three mobile-two columns">
+         <figure class="project" id="project04">
+            <div class="thumb">
+               <a class="open-project" data-project="04" href="#project04"><img src="images/sc2500.png" alt="" />
+
+               </div>
+               <figcaption>
+                  <h3>StarCraft II</h3>
+                  <p>Technium 2014</p>
+               </figcaption>
+            </a>
+         </figure>
+         <div class="project-window" id="showcase04">
+            <div class="row collapse content">
+               <div class="twelve columns">
+                  <header>
+                     <a class="close-project-window" href="#work" title="close"><i><img src="images/close.png" /></i></a>
+                     <h3>StarCraft II</h3>
+                  </header>
+                  <article class="">
+                     <img src="images/sc2header.png" alt="" style="margin: auto 230px;"/>
+                     <hr><div style="text-align:left;">
+                     
+                     <h1 style="text-align:center;"> Formato de Torneo </h1>
+                     <h5 style="color:black;"><p>
+                        1. Eliminatoria directa.<br/>
+
+                        2. El número máximo de jugadores inscritos serán 32.<br/>
+
+                        3. El número mínimo para que se celebre el torneo será de 8 personas.<br/>
+
+                        4. Se creara un canal en el juego para que los jugadores puedan hablar entre ellos.El 
+
+                        canal será el punto de reunión en los que los jugadores que vayan a jugar deberán 
+
+                        estar dentro antes de cada partido.<br/> 
+
+                        5. El map pool serán los mapas de ladder. <br/>
+
+                        6. Las partidas no pueden contar con ningún espectador ni ningún arbitro, tan solo los 
+
+                        jugadores que tienen que jugar esa ronda. (Salvo si se decide stremear los partidos en 
+
+                        el recinto,caso en el que podrá entrar el organizador para retransmitirlo)<br/>
+
+                        7. Se habilitara un correo para el envío de capturas, en las que el ganador será el 
+
+                        responsable de enviar la misma.<br/>
+
+                        8. En caso de tener algún problema técnico, se podrá pausar, notificándolo antes al 
+
+                        adversario y durante un tiempo máximo de 5 minutos.<br/>
+
+                        9. Las rondas se jugaran a Bo3 , salvo semifinal y final, que se jugara a Bo5.<br/>
+
+                        10. En caso de empate se hará re-match en el mismo mapa que se dio el empate.<br/>
+
+                        11. Los brackets se publicaran en el momento en el que se cierren inscripciones.<br/>
+
+                        12. No se tolerara lenguaje obsceno.<br/>
+                     </p>       </h5>
+                     
+                  </article>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+
+
+
+      <div class="three mobile-two columns">
+         <figure class="project" id="project03">
+            <div class="thumb">
+               <a class="open-project" data-project="03" href="#project03"><img src="images/fifa500.png" alt="" />
+
+               </div>
+               <figcaption>
+                  <h3>FIFA 2014</h3>
+                  <p>Technium 2014</p>
+               </figcaption>
+            </a>
+         </figure>
+         <div class="project-window" id="showcase03">
+            <div class="row collapse content">
+               <div class="twelve columns">
+                  <header>
+                     <a class="close-project-window" href="#work" title="close"><i><img src="images/close.png" /></i></a>
+                     <h3>FIFA 2014</h3>
+                  </header>
+                  <article class="">
+                     <div class="row collapse">
+                        <img src="images/fifaheader.png" alt="" style="margin: auto 230px;"/>
+                        <hr><div style="text-align:left;">
+                        <h1 style="text-align:center;">Formato de Torneo</h1><br/>
+                        <h5 style="color:black;">
+                           <p>
+                              1- La inscripción al torneo se hará el mismo día.<br/>
+
+                              2- El torneo tendrá un límite de 64 participantes, con enfrentamientos de eliminación directa uno contra uno, quedando de la siguiente manera:<br/><br/>
+                           </p>
+                           <div style="text-align:center;">
+                            <p>
+                              Primera ronda: 64 jugadores<br/>
+                              Segunda ronda: 32 jugadores<br/>
+                              Octavos de final: 16 jugadores<br/>
+                              Cuartos de final:  8 jugadores<br/>
+                              Semifinal: 4 jugadores<br/>
+                              Final: 2 jugadores<br/><br/>
+                           </p>
                         </div>
-                        <hr>
-                        <ul class="tags">
-                           <li><i class="icon-tags"></i> Tags : </li>
-                           <li><a href="#">Ya</a></li>
-                           <li><a href="#">veremos</a></li>
-                           <li><a href="#">que</a></li>
-                           <li><a href="#">uso</a></li>
-                           <li><a href="#">tienen</a></li>
-                        </ul>
-                        <hr>
-                        <div class="text-center"><a class="button expand">Botonaco</a></div>
-                     </div>
-                     <div class="seven columns text-center p20">
-                        <div class="cycle-slideshow animate"
-                        data-cycle-fx="scrollHorz"
-                        data-cycle-pause-on-hover="true"
-                        data-cycle-speed="1000"
-                        data-cycle-timeout="2000"
-                        data-cycle-prev=".prev" 
-                        data-cycle-next=".next" 
-                        data-cycle-easing="easeInExpo"
-                        >
-                        <a class="prev"><img height=64px width=64px src="images/arrow_left.png" /></a>
-                        <a class="next"><img height=64px width=64px src="images/arrow_right.png" /></a>
-                        <img src="images/feat-lrg-01.jpg" alt="" />
-                        <img src="images/feat-lrg-02.jpg" alt="" />
-                        <img src="images/feat-lrg-03.jpg" alt="" />
-                     </div>
+                        <p>
+                           3- El número mínimo de jugadores para la celebración del torneo será de 8. En caso de que el torneo cuente con menos jugadores no se realizará dicho torneo.<br/>
+
+                           4- Se podrá escoger cualquier equipo, salvo selecciones nacionales, con las plantillas que vienen por defecto en el juego.<br/>
+
+                           5- Los partidos durarán 6 minutos cada parte, exceptuando la final que se jugará a 9 minutos cada parte. En caso de empate se jugará una prórroga clásica. Si sigue el empate se decidirá en los penaltis.<br/>
+
+                           6- Los participantes deberán respetar las fechas, previamente  determinadas, debiendo jugar en el día y dentro del horario preestablecido. <br/>
+
+                           7- Ausencia de un Jugador: Si en la hora del partido, en el  período correspondiente al partido en cuestión, uno de sus jugadores se  encuentra presente, y el otro se ausenta y vence el plazo de espera (20  minutos), el jugador que expresó y demostró su intención de jugar el partido,  lo ganará con un resultado a favor de 3-0.<br/>
+
+                           8- En caso de que ambos participantes no estén presentes, el partido  quedará como Partido No Jugado (PNJ).<br/>
+
+                           9- En caso de abandono voluntario durante el partido, al jugador se le  dará por perdido el partido, sumando 3 goles en contra, más al resultado  parcial antes del abandono. <br/>
+                        </p>
+                     </h5>
                   </div>
+
+                  <hr>
+                  <hr>
+
                </div>
             </article>
          </div>
@@ -610,7 +635,12 @@
    </div>
 </div>
 
--->
+
+
+
+
+
+
 
 
 </div>
@@ -764,10 +794,10 @@
          <div class="four columns mobile-four">
             <input type="text" name="checkdni" maxlength="9" class="oversize" placeholder="Introduce tu DNI" />
          </div>
-            <input type="submit" class="button large" id="mc-embedded-subscribe2" name="comprobar" value="Comprobar">
-         </div>
-      </form>
-   </div>
+         <input type="submit" class="button large" id="mc-embedded-subscribe2" name="comprobar" value="Comprobar">
+      </div>
+   </form>
+</div>
 </section>
 
 
