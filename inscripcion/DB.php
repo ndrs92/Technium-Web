@@ -45,11 +45,12 @@ function mostrar(){
 	echo '<head><meta charset="utf-8" /></head>';
 	$result = mysql_query("SELECT * FROM registros WHERE borrado=0");
 	$num = mysql_num_rows($result);
+	echo 'Registrados '.$num.' participantes en total.<br/><br/>';
 	$i = 0;
 	if($result){
 		echo '<form method="post" action="login_success.php">';
 
-		echo '<table style="width:1000px">';
+		echo '<table style="width:1000px;" border="1">';
 		echo '<tr>';
   		echo '<th>ID</th>';
   		echo '<th>Nombre</th>'; 

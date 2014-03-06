@@ -752,6 +752,23 @@
       <a href="auto.pdf"><input type="submit" class="button large expand" id="aut" value="[PDF] Autorización de menores"></a>
    </div>
 </section>
+<section class="subscribe" id="inscripcion">
+   <div class="row">
+      <div class="twelve columns text-center">
+         <h1>Comprueba tu inscripcion</h1>
+         <div class="spacer2"></div>
+      </div>
+   </div>
+   <div class="row">
+      <form action="check.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate bg-light">
+         <div class="four columns mobile-four">
+            <input type="text" name="checkdni" maxlength="9" class="oversize" placeholder="Introduce tu DNI" />
+         </div>
+            <input type="submit" class="button large" id="mc-embedded-subscribe2" name="comprobar" value="Comprobar">
+         </div>
+      </form>
+   </div>
+</section>
 
 
 <section class="contact" id="pro-contact">
