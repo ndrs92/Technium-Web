@@ -239,13 +239,13 @@
                                        <p>A medida que tengamos información de los productos que habrá, se irá colocando la información del precio</p>
                                        <div class="six mobile-two columns">
                                           <ul class="no-bullet">
-                                             <li></i> Buena intención </li>
+                                             <li></i> </li>
 
                                           </ul>
                                        </div>
                                        <div class="six mobile-two columns">
                                           <ul class="no-bullet">
-                                             <li>Muchos €</li>
+                                             <li></li>
 
                                           </ul>
                                        </div>
@@ -822,7 +822,7 @@
       </div>
    </div>
    <div class="row">
-      <form action="check.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate bg-light">
+      <form action="check.php" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate bg-light">
          <div class="four columns mobile-four">
             <input type="text" name="checkdni" maxlength="9" class="oversize" placeholder="Introduce tu DNI" />
          </div>
@@ -851,7 +851,7 @@
          <ul class="no-bullet">
             <li><strong>ASEII</strong></li>
             <li>Asociación Sectorial de Estudiantes de Ingeniería Informática</li>
-            <li>aseii.contacto@aseii.es</li>
+            <li>aseii.contacto@gmail.com</li>
          </ul>
       </div>
       <div class="three columns mobile-two">

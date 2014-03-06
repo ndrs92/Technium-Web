@@ -35,19 +35,24 @@ function connect(){
 	<img src="images/logotech1.png"  alt="Technium" />
 	<h3>
 		<?php
-		if(isset($_POST['checkdni']) && strlen($_POST['checkdni']) == 9){
-			$dni = $_POST['checkdni'];
+
+		if(isset($_GET['checkdni']) && strlen($_GET['checkdni']) == 9 ){
+			$dni = $_GET['checkdni'];
 			connect();
 			mysql_select_db(technium);
 			$resultado = mysql_query("SELECT * FROM registros WHERE dni='$dni'");
 			$mostrar = mysql_fetch_array($resultado);
 			if($mostrar["nombre"] != ""){
 				echo "Hola, ".$mostrar["nombre"].", ";
-				if($mostrar["admitido"] == 0){
-					echo "estás pendiente de revisión. En breve te enviaremos un correo. Disculpa las molestias.";
+				if($mostrar["espera"]==1){
+					echo "estás en lista de espera.";
 				}else{
-					if($mostrar["admitido"] == 1 && $mostrar["pagado"] == 0) echo "estás admitido!. Aún no hemos procesado tu pago. Si no lo has hecho, ¡hazlo cuanto antes!";
-					if($mostrar["admitido"] == 1 && $mostrar["pagado"] == 1) echo "todo está correcto, estás admitido y pagado. Nos vemos en la Party!";
+					if($mostrar["admitido"] == 0){
+						echo "estás pendiente de revisión. En breve te enviaremos un correo. Disculpa las molestias.";
+					}else{
+						if($mostrar["admitido"] == 1 && $mostrar["pagado"] == 0) echo "estás admitido!. Aún no hemos procesado tu pago. Si no lo has hecho, ¡hazlo cuanto antes!";
+						if($mostrar["admitido"] == 1 && $mostrar["pagado"] == 1) echo "todo está correcto, estás admitido y pagado. Nos vemos en la Party!";
+					}
 				}
 			}else{
 				echo "No estás registrado en la party (Si estás seguro de que te habías registrado, por favor envíanos un correo).";
